@@ -1,5 +1,5 @@
 /**
- * Created by Yxh_PC on 2017/1/15.
+ * 
  */
 $(function(){
     $(".layui-btn").click(function(){

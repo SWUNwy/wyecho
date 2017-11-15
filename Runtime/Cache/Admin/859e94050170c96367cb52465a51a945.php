@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <title><?php echo (C("system_title")); ?></title>
+    <!--<title><?php echo (C("system_title")); ?></title>-->
 
     <meta name="keywords" content="<?php echo (C("system_title")); ?>">
     <meta name="description" content="<?php echo (C("system_title")); ?>">
@@ -47,7 +47,7 @@
                                 <?php if(($user_id != 1)): ?><li><a class="J_menuItem" href="<?php echo U('User/edituser',['id'=>$user_id]);?>">修改资料</a>
                                 </li>
                                 <li class="divider"></li><?php endif; ?>
-                                <li><a href="" onclick="logout();">安全退出</a>
+                                <li><a href="<?php echo U('Login/logout');?>" onclick="logout();">安全退出</a>
                                 </li>
                             </ul>
                         </div>
@@ -80,7 +80,7 @@
                         <?php if(in_array('3',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Member/memberList');?>">查看会员</a>
+                                <a class="J_menuItem" href="<?php echo U('Member/index');?>">查看会员</a>
                             </li>
                         </ul>
                         <?php } ?>
@@ -88,7 +88,7 @@
                     </li>
                     <?php } ?>
 
-                    <?php if(in_array('4',$auth)||$auth==''){ ?>
+<!--                    <?php if(in_array('4',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#shield">
                             <i class="fa fa-shield" style="font-size: 18px;"></i>
@@ -109,25 +109,25 @@
                             <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
+                    <?php } ?>-->
 
                     <?php if(in_array('7',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#balance-scale">
                             <i class="fa fa-balance-scale"></i>
-                            <span class="nav-label">运动会管理</span>
+                            <span class="nav-label">通知管理</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
                             <?php if(in_array('8',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Sports/addSports');?>">添加运动会</a>
+                                <a class="J_menuItem" href="<?php echo U('Sports/addSports');?>">添加通知</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('9',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Sports/sportsList');?>">查看运动会</a>
+                                <a class="J_menuItem" href="<?php echo U('Sports/sportsList');?>">查看列表</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -138,19 +138,19 @@
                     <li>
                         <a href="#flag">
                             <i class="fa fa-flag" style="font-size: 16px;"></i>
-                            <span class="nav-label">新闻管理</span>
+                            <span class="nav-label">博文管理</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
                             <?php if(in_array('11',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/addnews');?>">发布新闻</a>
+                                <a class="J_menuItem" href="<?php echo U('News/addnews');?>">发布博文</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('12',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/newslist');?>">查看新闻</a>
+                                <a class="J_menuItem" href="<?php echo U('News/newslist');?>">博文列表</a>
                             </li>
                             <?php } ?>
 
@@ -192,7 +192,7 @@
                     </li>
                     <?php } ?>
 
-                    <?php if(in_array('18',$auth)||$auth==''){ ?>
+<!--                    <?php if(in_array('18',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#university">
                             <i class="fa fa-university" style="font-size: 14px;"></i>
@@ -210,9 +210,9 @@
                             <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
+                    <?php } ?>-->
 
-                    <?php if(in_array('20',$auth)||$auth==''){ ?>
+<!--                    <?php if(in_array('20',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#gavel">
                             <i class="fa fa-gavel" style="font-size: 16px;"></i>
@@ -233,7 +233,7 @@
                             <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
+                    <?php } ?>-->
 
                     <?php if(in_array('23',$auth)||$auth==''){ ?>
                     <li>
@@ -251,7 +251,7 @@
 
                             <?php if(in_array('25',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href=<?php echo U('User/userList');?>">查看用户</a>
+                                <a class="J_menuItem" href=<?php echo U('User/index');?>">用户列表</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -360,7 +360,7 @@
                         </li>
                     </ul>
                 </div>
-                <a href="" onclick="logout();" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
+                <a href="<?php echo U('Login/logout');?>" onclick="" class="roll-nav roll-right J_tabExit"><i class="fa fa fa-sign-out"></i> 退出</a>
             </div>
             <div class="row J_mainContent" id="content-main">
                 <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="<?php echo U('Index/main');?>" frameborder="0" data-id="<?php echo U('Index/main');?>" seamless></iframe>
@@ -381,14 +381,14 @@
     <script src="/wyecho/public/Admin/js/contabs.min.js" type="text/javascript"></script>
     <script src="/wyecho/public/Admin/js/plugins/pace/pace.min.js"></script>
     <script src="/wyecho/public/Admin/js/layer/layer.js"></script>
-    <script>
-        //定义全局变量
+<!--     <script>
+        定义全局变量
         var GV = {
-            login_logout : "<?php echo U('login/logout');?>",
-            login_index : "<?php echo U('login/index');?>"
+            login_logout : "<?php echo U('Login/logout');?>",
+            login_index : "<?php echo U('Login/index');?>"
         };
-    </script>
-    <script src="/wyecho/public/Admin/js/http/index/index.js"></script>
+    </script> -->
+    <!-- <script src="/wyecho/public/Admin/js/http/index/index.js"></script> -->
 </body>
 
 <!-- Mirrored from www.zi-han.net/theme/hplus/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:31:16 GMT -->

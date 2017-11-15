@@ -1,6 +1,6 @@
 function logout(){
     $.ajax({
-        url:GV.login_logout,
+        url:"{:U('Login/logout')}",
         type:'get',
         success:function(data){
             if(data.status == 200){

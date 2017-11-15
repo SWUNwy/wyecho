@@ -69,3 +69,19 @@ header("Content-type:text/html;charset=utf-8");
 		curl_close($ch);
 		return $data;
 	}
+
+	/**
+	 * 获取图片路径
+	 * @param $id
+	 * @param string $field
+	 * @return bool|string
+	 */
+	function getImgPath($images_id){
+	    $info = M('picture')->where(['id'=>$images_id])->find();
+	    if($info){
+	        $path = __ROOT__.'/'.$info['path'];
+	    }else{
+	        $path = false;
+	    }
+	    return $path;
+	}
