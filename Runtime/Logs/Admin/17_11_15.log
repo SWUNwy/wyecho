@@ -1,0 +1,487 @@
+[ 2017-11-15T19:31:17+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Index
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: images D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 36 行.
+NOTIC: [8] Undefined variable: username D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 42 行.
+NOTIC: [8] Undefined variable: rolename D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 43 行.
+NOTIC: [8] Undefined variable: user_id D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 47 行.
+NOTIC: [8] Undefined variable: user_id D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 47 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__CSS__/style.min862f.css?v=4.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__CSS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__CSS__/bootstrap.min14ed.css?v=3.3.6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__CSS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__CSS__/font-awesome.min93e3.css?v=4.4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__CSS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__CSS__/animate.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__CSS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/jquery.min63b9.js?v=2.1.4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/layer/layer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/hplus.min862f.js?v=4.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/contabs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/bootstrap.min14ed.js?v=3.3.6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010001s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__IMG__/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/http/index/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:32+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/layer/layer.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/hplus.min862f.js?v=4.1.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/contabs.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/layer/layer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__JS__/http/index/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+ERR: 非法操作:__JS__
+
+[ 2017-11-15T19:31:33+08:00 ] ::1 /wyecho/index.php/Admin/Index/__IMG__/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-15T19:32:15+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: images D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 36 行.
+NOTIC: [8] Undefined variable: username D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 42 行.
+NOTIC: [8] Undefined variable: rolename D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 43 行.
+NOTIC: [8] Undefined variable: user_id D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 47 行.
+NOTIC: [8] Undefined variable: user_id D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 47 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 64 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 72 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 80 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 91 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 99 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 105 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 114 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 122 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 128 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 137 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 145 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 151 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 157 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 163 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 172 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 180 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 186 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 195 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 203 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 215 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 223 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 229 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 238 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 246 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 252 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 261 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 269 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 275 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 284 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 291 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 299 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+NOTIC: [8] Undefined variable: auth D:\wamp64\www\wyecho\Runtime\Cache\Admin\859e94050170c96367cb52465a51a945.php 第 307 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-11-15T19:32:15+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-11-15T19:38:08+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-15T19:38:08+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
