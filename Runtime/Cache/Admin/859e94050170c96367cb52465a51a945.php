@@ -115,19 +115,19 @@
                     <li>
                         <a href="#balance-scale">
                             <i class="fa fa-balance-scale"></i>
-                            <span class="nav-label">通知管理</span>
+                            <span class="nav-label">资讯管理</span>
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
                             <?php if(in_array('8',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Sports/addSports');?>">添加通知</a>
+                                <a class="J_menuItem" href="<?php echo U('News/addNews');?>">添加资讯</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('9',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Sports/sportsList');?>">查看列表</a>
+                                <a class="J_menuItem" href="<?php echo U('News/index');?>">资讯列表</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -144,25 +144,25 @@
                         <ul class="nav nav-second-level">
                             <?php if(in_array('11',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/addnews');?>">发布博文</a>
+                                <a class="J_menuItem" href="<?php echo U('Blog/addBlog');?>">发布博文</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('12',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/newslist');?>">博文列表</a>
+                                <a class="J_menuItem" href="<?php echo U('Blog/index');?>">博文列表</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('13',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/catelist');?>">分类管理</a>
+                                <a class="J_menuItem" href="<?php echo U('Blog/cateList');?>">分类管理</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('14',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('News/recycle');?>">回收站</a>
+                                <a class="J_menuItem" href="<?php echo U('Blog/recycle');?>">回收站</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -185,7 +185,7 @@
 
                             <?php if(in_array('17',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Doc/docList');?>">文档列表</a>
+                                <a class="J_menuItem" href="<?php echo U('Doc/index');?>">文档列表</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -268,13 +268,13 @@
                         <ul class="nav nav-second-level">
                             <?php if(in_array('27',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Role/roleList');?>">角色管理</a>
+                                <a class="J_menuItem" href="<?php echo U('Role/index');?>">角色管理</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('28',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Auth/authList');?>">权限列表</a>
+                                <a class="J_menuItem" href="<?php echo U('Auth/index');?>">权限列表</a>
                             </li>
                             <?php } ?>
                         </ul>
@@ -291,7 +291,7 @@
                         <?php if(in_array('30',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('System/siteConfig');?>">站点配置</a>
+                                <a class="J_menuItem" href="<?php echo U('System/index');?>">站点配置</a>
                             </li>
                         </ul>
                         <?php } ?>
@@ -299,7 +299,7 @@
                         <?php if(in_array('31',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Database/index',['type'=>'export']);?>">备份数据库</a>
+                                <a class="J_menuItem" href="<?php echo U('Database/export');?>">备份数据库</a>
                             </li>
                         </ul>
                         <?php } ?>
@@ -307,7 +307,7 @@
                         <?php if(in_array('32',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Database/index',['type'=>'import']);?>">还原数据库</a>
+                                <a class="J_menuItem" href="<?php echo U('Database/import');?>">还原数据库</a>
                             </li>
                         </ul>
                         <?php } ?>
@@ -324,7 +324,7 @@
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                     <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
                     </div>
-                    <ul class="nav navbar-top-links navbar-right">
+<!--                    <ul class="nav navbar-top-links navbar-right">
                         <li class="hidden-xs">
                             <a href="index_v1.html" class="J_menuItem" data-index="0"><i class="fa fa-cart-arrow-down"></i> 主题</a>
                         </li>
@@ -333,7 +333,7 @@
                                 <i class="fa fa-tasks"></i> 主题
                             </a>
                         </li>
-                    </ul>
+                    </ul>-->
                 </nav>
             </div>
             <div class="row content-tabs">
