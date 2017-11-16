@@ -63,47 +63,36 @@
                             <thead>
                             <tr>
                                 <th></th>
-                                <th>姓名</th>
+                                <th>用户名</th>
                                 <th>性别</th>
-                                <th>身份证号码</th>
-                                <th>学历</th>
-                                <th>所属单位</th>
+                                <th>邮箱</th>
                                 <th>联系方式</th>
-                                <th>入会时间</th>
+                                <th>最后访问IP</th>
+                                <th>加入时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($memberlist)): $i = 0; $__LIST__ = $memberlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$memberlist): $mod = ($i % 2 );++$i;?><tr>
+                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($memberlist["id"]); ?>">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($vo["id"]); ?>">
                                     </td>
-                                    <td><?php echo ($memberlist["name"]); ?></td>
+                                    <td><?php echo ($vo["uname"]); ?></td>
                                     <td>
-                                        <?php if(($memberlist['sex'] == 0)): ?>男<?php endif; ?>
-                                        <?php if(($memberlist['sex'] == 1)): ?>女<?php endif; ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($memberlist["id_card"]); ?>
+                                        <?php if(($vo['sex'] == 1)): ?>男<?php endif; ?>
+                                        <?php if(($vo['sex'] == 0)): ?>女<?php endif; ?>
                                     </td>
                                     <td>
-                                        <?php if(($memberlist['school'] == 0)): ?>小学<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 1)): ?>初中<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 2)): ?>高中<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 3)): ?>中专<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 4)): ?>大专<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 5)): ?>本科<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 6)): ?>研究生<?php endif; ?>
-                                        <?php if(($memberlist['school'] == 7)): ?>博士<?php endif; ?>
+                                        <?php echo ($vo["email"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($memberlist["unit"]); ?>
+                                        <?php echo ($vo["phone"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($memberlist["phone"]); ?>
+                                        <?php echo ($vo["ip"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($memberlist["come_time"]); ?>
+                                        <?php echo ($vo["add_time"]); ?>
                                     </td>
                                     <td>
                                         <a href="<?php echo U('Member/detailMember',['id'=>$memberlist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>

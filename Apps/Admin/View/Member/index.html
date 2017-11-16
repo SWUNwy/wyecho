@@ -21,53 +21,42 @@
                             <thead>
                             <tr>
                                 <th></th>
-                                <th>姓名</th>
+                                <th>用户名</th>
                                 <th>性别</th>
-                                <th>身份证号码</th>
-                                <th>学历</th>
-                                <th>所属单位</th>
+                                <th>邮箱</th>
                                 <th>联系方式</th>
-                                <th>入会时间</th>
+                                <th>最后访问IP</th>
+                                <th>加入时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <volist name="memberlist" id="memberlist">
+                            <volist name="list" id="vo">
                                 <tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="{$memberlist.id}">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="{$vo.id}">
                                     </td>
-                                    <td>{$memberlist.name}</td>
+                                    <td>{$vo.uname}</td>
                                     <td>
-                                        <if condition="($memberlist['sex'] == 0)"> 男 </if>
-                                        <if condition="($memberlist['sex'] == 1)"> 女 </if>
-                                    </td>
-                                    <td>
-                                        {$memberlist.id_card}
+                                        <if condition="($vo['sex'] == 1)"> 男 </if>
+                                        <if condition="($vo['sex'] == 0)"> 女 </if>
                                     </td>
                                     <td>
-                                        <if condition="($memberlist['school'] == 0)"> 小学 </if>
-                                        <if condition="($memberlist['school'] == 1)"> 初中 </if>
-                                        <if condition="($memberlist['school'] == 2)"> 高中 </if>
-                                        <if condition="($memberlist['school'] == 3)"> 中专 </if>
-                                        <if condition="($memberlist['school'] == 4)"> 大专 </if>
-                                        <if condition="($memberlist['school'] == 5)"> 本科 </if>
-                                        <if condition="($memberlist['school'] == 6)"> 研究生 </if>
-                                        <if condition="($memberlist['school'] == 7)"> 博士 </if>
+                                        {$vo.email}
                                     </td>
                                     <td>
-                                        {$memberlist.unit}
+                                        {$vo.phone}
                                     </td>
                                     <td>
-                                        {$memberlist.phone}
+                                        {$vo.ip}
                                     </td>
                                     <td>
-                                        {$memberlist.come_time}
+                                        {$vo.add_time}
                                     </td>
                                     <td>
-                                        <a href="{:U('Member/detailMember',['id'=>$memberlist['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="{:U('Member/editMember',['id'=>$memberlist['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="{:U('User/delete',['id'=>$memberlist['id'],'tableName'=>'Member'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="{:U('Member/getDetail',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="{:U('Member/editMember',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="{:U('Member/delete',['id'=>$vo['id'],'tableName'=>'Member'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
                                     </td>
                                 </tr>
                             </volist>

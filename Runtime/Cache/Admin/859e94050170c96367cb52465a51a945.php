@@ -80,7 +80,7 @@
                         <?php if(in_array('3',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Member/index');?>">查看会员</a>
+                                <a class="J_menuItem" href="<?php echo U('Member/index');?>">会员列表</a>
                             </li>
                         </ul>
                         <?php } ?>
