@@ -32,9 +32,14 @@ class MemberController extends Controller {
     public function addMember() {
         $this->display();
     }
+
+    public function editMember() {
+        $this->display();
+    }
     
     public function getDetail() {
-        $id = I('id');
+        $member = M('member')->where(['id'=>I('get.id')])->find();
+        $this->assign('member',$member);
         $this->display();
     }
 }

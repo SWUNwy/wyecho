@@ -52,7 +52,7 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-3" style="float: right;">
-                            <!-- <div class="input-group">
+<!--                             <div class="input-group">
                                 <input type="text" placeholder="请输入姓名" class="input-sm form-control"> <span class="input-group-btn">
                                 <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
                             </div> -->
@@ -95,9 +95,9 @@
                                         <?php echo ($vo["add_time"]); ?>
                                     </td>
                                     <td>
-                                        <a href="<?php echo U('Member/detailMember',['id'=>$memberlist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('Member/editMember',['id'=>$memberlist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('User/delete',['id'=>$memberlist['id'],'tableName'=>'Member']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('Member/getDetail',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="<?php echo U('Member/editMember',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="<?php echo U('Member/delete',['id'=>$vo['id'],'tableName'=>'Member']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
