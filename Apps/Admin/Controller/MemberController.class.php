@@ -57,14 +57,25 @@ class MemberController extends Controller {
             'email'     => I('email'),
             'phone'     => I('phone'),
             'introduct' => I('introduct'),
+            'ip'        => $_SERVER["REMOTE_ADDR"],
             'last_time' => date('Y-m-d H:i:s')
             );
         // p($data);
         $member = M('member')->find($id);
         if ($member) {
-            echo "success!";          
+            $result = M('member')->where('id='.$id)->save($data);
+            if ($result || $result === 0) {
+                echo '<script>alert("修改成功");location.href="./index.html"</script>';
+            } else {
+                echo '<script>alert("修改失败");location.href="./index.html"</script>';
+            }
          } else {
-            echo "error!";
+            $result = M('member')->add($data);
+            if ($result) {
+                echo '<script>alert("添加成功");location.href="./index.html"</script>';
+            } else {
+                echo '<script>alert("添加失败");location.href="./index.html"</script>';
+            }
          }
 
     }

@@ -57,7 +57,7 @@
                             <label class="col-sm-2 control-label">会员姓名</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="name" value="<?php echo ($member["uname"]); ?>" placeholder="请填写会员姓名" id="uname">
+                                <input type="text" class="form-control" name="uname" value="<?php echo ($member["uname"]); ?>" placeholder="请填写会员姓名" id="uname">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
