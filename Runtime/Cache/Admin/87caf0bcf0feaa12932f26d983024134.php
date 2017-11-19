@@ -50,6 +50,7 @@
                     <h5>编辑会员</h5>
                 </div>
                 <form  action="<?php echo U('Member/save');?>" method="post">
+                <input type="hidden" name="id" id="id" value="<?php echo ($member["id"]); ?>">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
@@ -79,7 +80,7 @@
                             <label class="col-sm-2 control-label">邮箱</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="email" value="<?php echo ($member["email"]); ?>" placeholder="请填写邮箱" id="national">
+                                <input type="text" class="form-control" name="email" value="<?php echo ($member["email"]); ?>" placeholder="请填写邮箱" id="email">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>

@@ -41,18 +41,23 @@ class MemberController extends Controller {
 
     public function editMember() {
         $id = I('id');
-        $member = M('member')->where('id='.$id)->select();
+        $member = M('member')->where('id='.$id)->find();
+        // p($member);
+        // die();
         $this->assign('member',$member);
         $this->display();
     }
 
     public function save() {
+        $id = I('id');
+        p($id);
         $data = array(
             'uname'     => I('uname'),
             'sex'       => I('sex'),
             'email'     => I('email'),
             'phone'     => I('phone'),
-            'introduct' => I('introduct')
+            'introduct' => I('introduct'),
+            'last_time' => date('Y-m-d H:i:s')
             );
         p($data);
         echo "success!";
