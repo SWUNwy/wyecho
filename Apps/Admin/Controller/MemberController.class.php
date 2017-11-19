@@ -33,13 +33,29 @@ class MemberController extends Controller {
         $this->display();
     }
 
-    public function editMember() {
-        $this->display();
-    }
-    
     public function getDetail() {
         $member = M('member')->where(['id'=>I('get.id')])->find();
         $this->assign('member',$member);
         $this->display();
     }
+
+    public function editMember() {
+        $id = I('id');
+        $member = M('member')->where('id='.$id)->select();
+        $this->assign('member',$member);
+        $this->display();
+    }
+
+    public function save() {
+        $data = array(
+            'uname'     => I('uname'),
+            'sex'       => I('sex'),
+            'email'     => I('email'),
+            'phone'     => I('phone'),
+            'introduct' => I('introduct')
+            );
+        p($data);
+        echo "success!";
+    }
+    
 }

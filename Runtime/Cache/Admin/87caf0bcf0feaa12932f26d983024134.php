@@ -49,27 +49,14 @@
                 <div class="ibox-title">
                     <h5>编辑会员</h5>
                 </div>
+                <form  action="<?php echo U('Member/save');?>" method="post">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <label class="col-sm-2 control-label">会员姓名</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="name" value="<?php echo ($member["name"]); ?>" placeholder="请填写会员姓名" id="name">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">上传寸照</label>
-                            <div class="col-sm-10">
-                                <img src="" class="images" style="width:100px;margin-bottom: 2px;"/>
-                                <!--dom结构部分-->
-                                <div id="uploader-demo">
-                                    <!--用来存放item-->
-                                    <div id="fileList" class="uploader-list" style="width:100px;"></div>
-                                    <div id="filePicker"><i class="fa fa-upload"></i> 选择照片</div>
-                                </div>
+                                <input type="text" class="form-control" name="name" value="<?php echo ($member["uname"]); ?>" placeholder="请填写会员姓名" id="name">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -123,19 +110,20 @@
                         </div>
                     </div>
                 </div>
+            </form>
             </div>
         </div>
     </div>
 </div>
-<script>
-    //定义全局变量
+<!-- <script>
+    // 定义全局变量
     var GV = {
         member_editmember : "<?php echo U('Member/editMember');?>",
         member_id : "<?php echo ($member["id"]); ?>"
     };
 </script>
 <script src="/wyecho/public/Admin/js/http/member/editmember.js"></script>
-<script src="/wyecho/public/Admin/js/http/upload.js"></script>
+<script src="/wyecho/public/Admin/js/http/upload.js"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->
