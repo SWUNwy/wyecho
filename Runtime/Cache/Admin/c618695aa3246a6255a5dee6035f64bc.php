@@ -68,8 +68,8 @@
 
                             <div class="col-sm-10">
                                 <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="sex"> 男</label>
-                                    <label><input type="radio" value="1" name="sex"> 女</label>
+                                    <label><input type="radio" value="0" id="sex" name="sex"> 男</label>
+                                    <label><input type="radio" value="1" id="sex" name="sex"> 女</label>
                                 </div>
                             </div>
                         </div>

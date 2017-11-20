@@ -23,7 +23,7 @@ class MemberController extends Controller {
 
         //分页显示输出
         $show = $Page->show();
-        $list = $member->order('add_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $list = $member->order('last_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
         $this->assign('list',$list);
         $this->assign('page',$show);
         $this->display();

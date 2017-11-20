@@ -68,7 +68,7 @@
                                 <th>邮箱</th>
                                 <th>联系方式</th>
                                 <th>最后访问IP</th>
-                                <th>加入时间</th>
+                                <th>最后访问时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -92,7 +92,7 @@
                                         <?php echo ($vo["ip"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($vo["add_time"]); ?>
+                                        <?php echo ($vo["last_time"]); ?>
                                     </td>
                                     <td>
                                         <a href="<?php echo U('Member/getDetail',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>

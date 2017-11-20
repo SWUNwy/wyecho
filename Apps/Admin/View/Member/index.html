@@ -26,7 +26,7 @@
                                 <th>邮箱</th>
                                 <th>联系方式</th>
                                 <th>最后访问IP</th>
-                                <th>加入时间</th>
+                                <th>最后访问时间</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -51,12 +51,12 @@
                                         {$vo.ip}
                                     </td>
                                     <td>
-                                        {$vo.add_time}
+                                        {$vo.last_time}
                                     </td>
                                     <td>
                                         <a href="{:U('Member/getDetail',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
                                         <a href="{:U('Member/editMember',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="{:U('Member/delete',['id'=>$vo['id'],'tableName'=>'Member'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="{:U('Member/delete',['id'=>$vo['id'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
                                     </td>
                                 </tr>
                             </volist>

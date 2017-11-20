@@ -69,8 +69,8 @@
 
                             <div class="col-sm-10">
                                 <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="sex" <?php if(($member['sex'] == 1)): ?>checked="checked"<?php endif; ?> > <i></i> 男</label>
-                                    <label><input type="radio" value="1" name="sex" <?php if(($member['sex'] == 0)): ?>checked="checked"<?php endif; ?> > <i></i>女</label>
+                                    <label><input type="radio" value="1" id="sex" name="sex" <?php if(($member['sex'] == 1)): ?>checked="checked"<?php endif; ?> > <i></i> 男</label>
+                                    <label><input type="radio" id="sex" value="0" name="sex" <?php if(($member['sex'] == 0)): ?>checked="checked"<?php endif; ?> > <i></i>女</label>
                                 </div>
                             </div>
                         </div>
