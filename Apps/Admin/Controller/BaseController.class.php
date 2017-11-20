@@ -6,5 +6,7 @@ use Think\Controller;
 
 class BaseContrller extends Controller {
 
-	public function _initialize() {}
+	public function _initialize() {
+		$this->redriect('Login/index');
+	}
 }
