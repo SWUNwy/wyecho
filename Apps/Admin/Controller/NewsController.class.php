@@ -45,5 +45,34 @@ class NewsController extends Controller {
     	$this->display();
     }
 
+    public function save() {
+    	$id = I('id');
+    	// p($id);
+    	// die();
+    	$data = array(
+    		'theme' 		=> I('theme'),
+    		'content'		=> I('content'),
+    		'introduction'	=> I('introduction'),
+    		'user'			=> I('user'),
+    		'email'			=> I('email'),
+    		'add_time'		=> date('Y-m-d H:i:s')
+    		);
+    	$news = M('news')->find($id);
+    	if ($news) {
+    		$result = M('news')->where('id='.$id)->save($data);
+            if ($result || $result === 0) {
+                echo '<script>alert("修改成功");location.href="./index.html"</script>';
+            } else {
+                echo '<script>alert("修改失败");location.href="./index.html"</script>';
+            }
+    	} else {
+    		$result = M('news')->add($data);
+            if ($result) {
+                echo '<script>alert("添加成功");location.href="./index.html"</script>';
+            } else {
+                echo '<script>alert("添加失败");location.href="./index.html"</script>';
+            }
+    	}
+    }
 
 }

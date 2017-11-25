@@ -48,9 +48,6 @@
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
                     <h5>添加资讯</h5>
-                    <div class="ibox-tools">
-                        <button type="button" class="btn btn-outline btn-primary btn-xs" href="<?php echo U('News/index');?>">返回</button>
-                    </div>
                 </div>
                 <form action="<?php echo U('News/save');?>" method="post" >
                 <div class="ibox-content">
@@ -73,6 +70,15 @@
                         </div>
                         <div class="hr-line-dashed"></div>
 
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯简介</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="introduction" value="<?php echo ($news["introduction"]); ?>" placeholder="请填写资讯内容" id="introduction">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+                        
                         <div class="form-group">
                             <label class="col-sm-2 control-label">发布者</label>
 

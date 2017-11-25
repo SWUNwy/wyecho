@@ -53,6 +53,7 @@
                     </div>
                 </div>
                 <form action="<?php echo U('News/save');?>" method="post" >
+                <input type="hidden" name="id" id="id" value="<?php echo ($news["id"]); ?>">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
@@ -69,6 +70,15 @@
 
                             <div class="col-sm-10">
                                 <input type="text" class="form-control" name="content" value="<?php echo ($news["content"]); ?>" placeholder="请填写资讯内容" id="content">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯简介</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="introduction" value="<?php echo ($news["introduction"]); ?>" placeholder="请填写资讯内容" id="introduction">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>

@@ -961,3 +961,203 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-11-25T17:13:42+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T17:13:46+08:00 ] ::1 /wyecho/index.php/Admin/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:46:58+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:46:58+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-25T22:47:00+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:47:02+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:47:04+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `yr_news` (`theme`,`content`,`introduction`,`user`,`email`,`add_time`) VALUES ('theme','content','','user','email@email.com','2017-11-25 22:47:04')
+
+[ 2017-11-25T22:47:33+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:47:35+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:47:38+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:07+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:08+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:45+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:49:47+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:48+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:50+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:49:52+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:49:53+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:52:16+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:52:17+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:52:19+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:52:37+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:52:39+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:52:40+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:53:50+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:53:54+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:53:55+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:55:16+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:55:18+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:55:22+08:00 ] ::1 /wyecho/index.php/Admin/News/detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:57:36+08:00 ] ::1 /wyecho/index.php/Admin/News/editNews/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:57:39+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:57:41+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:57:44+08:00 ] ::1 /wyecho/index.php/Admin/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:57:54+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1364:Field 'id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `yr_news` (`theme`,`content`,`introduction`,`user`,`email`,`add_time`) VALUES ('test','test','test','test','test','2017-11-25 22:57:54')
+
+[ 2017-11-25T22:58:18+08:00 ] ::1 /wyecho/index.php/Admin/News/addNews.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-25T22:58:26+08:00 ] ::1 /wyecho/index.php/Admin/News/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-11-25T22:58:28+08:00 ] ::1 /wyecho/index.php/Admin/News/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-25T22:58:30+08:00 ] ::1 /wyecho/index.php/Admin/News/delete/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:delete
+
