@@ -86,15 +86,12 @@ class MemberController extends Controller {
      * @param $tableName
      */
     public function delete($id){
-        if(IS_AJAX){
-            $res->M('member')->where(['id'=>$id])->delete();
-            if($res){
-                $this->ajaxReturn(['info'=>'操作成功','status'=>'1','sql'=>$sql]);
-            }else{
-                $this->ajaxReturn(['info'=>'操作失败','status'=>'0','sql'=>$sql]);
-            }
+        $id = I('id');
+        $res = M('member')->where('id='.$id)->delete();
+        if($res){
+            $this->success('删除成功!');
         }else{
-            $this->ajaxReturn(['info'=>'非法操作']);
+            $this->error('删除失败!');
         }
     }    
 

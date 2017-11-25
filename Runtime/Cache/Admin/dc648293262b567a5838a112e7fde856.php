@@ -97,7 +97,8 @@
                                     <td>
                                         <a href="<?php echo U('Member/getDetail',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
                                         <a href="<?php echo U('Member/editMember',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('Member/delete',['id'=>$vo['id']]);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('Member/delete',['id'=>$vo['id']]);?>" class=""><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    
+                                    </td>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>

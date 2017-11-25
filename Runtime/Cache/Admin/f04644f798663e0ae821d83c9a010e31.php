@@ -64,43 +64,31 @@
                             <tr>
                                 <th></th>
                                 <th>主题</th>
+                                <th>内容</th>
+                                <th>发布者</th>
                                 <th>时间</th>
-                                <th>地点</th>
-                                <th>主办方</th>
-                                <th>承办方</th>
-                                <th>负责人</th>
-                                <th>联系方式</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($sportslist)): $i = 0; $__LIST__ = $sportslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sportslist): $mod = ($i % 2 );++$i;?><tr>
+                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($sportslist["id"]); ?>">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($vo["id"]); ?>">
                                     </td>
-                                    <td><?php echo ($sportslist["theme"]); ?></td>
+                                    <td><?php echo ($vo["theme"]); ?></td>
                                     <td>
-                                        <?php echo ($sportslist["start_time"]); ?>至<?php echo ($sportslist["end_time"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($sportslist["address"]); ?>
+                                        <?php echo ($vo["content"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($sportslist["host"]); ?>
+                                        <?php echo ($vo["user"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($sportslist["undertake"]); ?>
+                                        <?php echo ($vo["add_time"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo ($sportslist["header"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($sportslist["phone"]); ?>
-                                    </td>
-                                    <td>
-                                        <a href="<?php echo U('Sports/detailSports',['id'=>$sportslist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('Sports/editSports',['id'=>$sportslist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('User/delete',['id'=>$sportslist['id'],'tableName'=>'Sports']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('News/detailSports',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="<?php echo U('News/editSports',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="<?php echo U('News/delete',['id'=>$vo['id'],'tableName'=>'Sports']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>

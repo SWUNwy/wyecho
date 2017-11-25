@@ -22,44 +22,32 @@
                             <tr>
                                 <th></th>
                                 <th>主题</th>
+                                <th>内容</th>
+                                <th>发布者</th>
                                 <th>时间</th>
-                                <th>地点</th>
-                                <th>主办方</th>
-                                <th>承办方</th>
-                                <th>负责人</th>
-                                <th>联系方式</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
-                            <volist name="sportslist" id="sportslist">
+                            <volist name="list" id="vo">
                                 <tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="{$sportslist.id}">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="{$vo.id}">
                                     </td>
-                                    <td>{$sportslist.theme}</td>
+                                    <td>{$vo.theme}</td>
                                     <td>
-                                        {$sportslist.start_time}至{$sportslist.end_time}
-                                    </td>
-                                    <td>
-                                        {$sportslist.address}
+                                        {$vo.content}
                                     </td>
                                     <td>
-                                        {$sportslist.host}
+                                        {$vo.user}
                                     </td>
                                     <td>
-                                        {$sportslist.undertake}
+                                        {$vo.add_time}
                                     </td>
                                     <td>
-                                        {$sportslist.header}
-                                    </td>
-                                    <td>
-                                        {$sportslist.phone}
-                                    </td>
-                                    <td>
-                                        <a href="{:U('Sports/detailSports',['id'=>$sportslist['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="{:U('Sports/editSports',['id'=>$sportslist['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="{:U('User/delete',['id'=>$sportslist['id'],'tableName'=>'Sports'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="{:U('News/detailSports',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="{:U('News/editSports',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="{:U('News/delete',['id'=>$vo['id'],'tableName'=>'Sports'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
                                     </td>
                                 </tr>
                             </volist>
