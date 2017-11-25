@@ -42,8 +42,6 @@ class MemberController extends Controller {
     public function editMember() {
         $id = I('id');
         $member = M('member')->find($id);
-        // p($member);
-        // die();
         $this->assign('member',$member);
         $this->display();
     }

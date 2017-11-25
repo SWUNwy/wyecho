@@ -47,58 +47,69 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>运动会列表</h5>
+                    <h5>添加资讯</h5>
+                    <div class="ibox-tools">
+                        <button type="button" class="btn btn-outline btn-primary btn-xs" onclick="history.back(-1);">返回</button>
+                    </div>
                 </div>
+                <form action="<?php echo U('News/save');?>" method="post" >
                 <div class="ibox-content">
-                    <div class="row">
-                        <div class="col-sm-3" style="float: right;">
-                            <!-- <div class="input-group">
-                                <input type="text" placeholder="请输入主题" class="input-sm form-control"> <span class="input-group-btn">
-                                <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
-                            </div> -->
+                    <div class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯主题</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="theme" value="<?php echo ($news["theme"]); ?>" placeholder="请填写资讯主题" id="theme">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">资讯内容</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="content" value="<?php echo ($news["content"]); ?>" placeholder="请填写资讯内容" id="content">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">发布者</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="user" value="<?php echo ($news["user"]); ?>" placeholder="请填写资讯发布者" id="user">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">发布者联系方式</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="email" value="<?php echo ($news["email"]); ?>" placeholder="请填写发布者联系方式" id="email">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" id="save">保存内容</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="table-responsive">
-                        <table class="table table-striped">
-                            <thead>
-                            <tr>
-                                <th></th>
-                                <th>主题</th>
-                                <th>资讯简介</th>
-                                <th>发布者</th>
-                                <th>发布者联系方式</th>
-                                <th>时间</th>
-                                <th>操作</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-                                    <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($vo["id"]); ?>">
-                                    </td>
-                                    <td><?php echo ($vo["theme"]); ?></td>
-                                    <td><?php echo ($vo["introduction"]); ?></td>
-                                    <td><?php echo ($vo["user"]); ?></td>
-                                    <td><?php echo ($vo["email"]); ?></td>
-                                    <td><?php echo ($vo["add_time"]); ?></td>
-                                    <td>
-                                        <a href="<?php echo U('News/detail',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('News/editNews',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('News/delete',['id'=>$vo['id']]);?>"><button type="button" 
-                                        class="btn btn-outline btn-warning btn-xs">删除</button></a>
-                                    </td>
-                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div style="text-align: center;"><?php echo ($page); ?></div>
                 </div>
+                </from>
             </div>
         </div>
-
     </div>
 </div>
-<script src="/wyecho/public/Admin/js/http/ajax.js"></script>
+<!-- <script>
+    //定义全局变量
+    var GV = {
+        sports_addsporst : "<?php echo U('Sports/addSports');?>"
+    };
+</script> -->
+<script src="/wyecho/public/Admin/js/http/sports/addsports.js"></script>
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

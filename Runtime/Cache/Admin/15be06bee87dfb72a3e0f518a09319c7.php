@@ -44,72 +44,51 @@
 
 <div class="wrapper wrapper-content animated fadeInRight">
     <div class="row">
-        <div class="col-sm-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>添加资讯</h5>
-                    <div class="ibox-tools">
-                        <button type="button" class="btn btn-outline btn-primary btn-xs" href="<?php echo U('News/index');?>">返回</button>
-                    </div>
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>资讯详情</h5>
+                <div class="ibox-tools">
+                    <button type="button" class="btn btn-outline btn-primary btn-xs" onclick="history.back(-1);">返回</button>
                 </div>
-                <form action="<?php echo U('News/save');?>" method="post" >
-                <div class="ibox-content">
-                    <div class="form-horizontal">
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">资讯主题</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="theme" placeholder="请填写资讯主题" id="theme">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">资讯内容</label>
-
-                            <div class="col-sm-10">
-                                <textarea type="text" class="form-control" name="content" placeholder="请填写资讯内容" id="content"></textarea>
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">发布者</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="user" placeholder="请填写资讯发布者" id="user">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">发布者联系方式</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="email" placeholder="请填写发布者联系方式" id="email">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <div class="col-sm-4 col-sm-offset-2">
-                                <button class="btn btn-primary" id="save">保存内容</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </from>
+            </div>
+            <div class="ibox-content">
+                <table class="table table-bordered" style="width: 80%;margin: auto;">
+                    <thead>
+                        <tr>
+                            <th colspan="2"  style="text-align: center;">资讯<?php echo ($news["theme"]); ?>基本信息</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th>主题</th>
+                        <td><?php echo ($news["theme"]); ?></td>
+                    </tr>
+                    <tr>
+                        <th>内容</th>
+                        <td><?php echo ($news["content"]); ?></td>
+                    </tr>
+                    <tr>
+                        <th>资讯简介</th>
+                        <td><?php echo ($news["introduction"]); ?></td>
+                    </tr>
+                    <tr>
+                        <th>发布者</th>
+                        <td><?php echo ($news["user"]); ?></td>
+                    </tr>
+                    <tr>
+                        <th>联系方式</th>
+                        <td><?php echo ($news["email"]); ?></td>
+                    </tr>
+                    <tr>
+                        <th>发布时间</th>
+                        <td><?php echo ($news["add_time"]); ?></td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 </div>
-<!-- <script>
-    //定义全局变量
-    var GV = {
-        sports_addsporst : "<?php echo U('Sports/addSports');?>"
-    };
-</script> -->
-<!-- <script src="/wyecho/public/Admin/js/http/sports/addsports.js"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

@@ -23,11 +23,25 @@ class NewsController extends Controller {
         $this->display();
     }
     
+    public function detail() {
+    	$id = I('id');
+    	$news = M('news')->find($id);
+    	// p($news);
+    	// die();
+    	$this->assign('news',$news);
+    	$this->display();
+    }
+
     public function addNews() {
         $this->display();
     }
 
     public function editNews() {
+    	$id = I('id');
+    	$news = M('news')->find($id);
+    	// p($news);
+    	// die();
+    	$this->assign('news',$news);
     	$this->display();
     }
 

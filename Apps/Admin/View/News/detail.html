@@ -4,43 +4,42 @@
     <div class="row">
         <div class="ibox float-e-margins">
             <div class="ibox-title">
-                <h5>会员详情</h5>
+                <h5>资讯详情</h5>
                 <div class="ibox-tools">
-                    <button type="button" class="btn btn-outline btn-primary btn-xs" onclick="history.go(-1);">返回</button>
+                    <button type="button" class="btn btn-outline btn-primary btn-xs" onclick="history.back(-1);">返回</button>
                 </div>
             </div>
             <div class="ibox-content">
                 <table class="table table-bordered" style="width: 80%;margin: auto;">
                     <thead>
                         <tr>
-                            <th colspan="5"  style="text-align: center;">会员{$member.uname}基本信息</th>
+                            <th colspan="2"  style="text-align: center;">资讯{$news.theme}基本信息</th>
                         </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <th>姓名</th>
-                        <td>{$member.uname}</td>
-                        <th>性别</th>
-                        <td>
-                            <if condition="($member['sex'] eq 1)">男</if>
-                            <if condition="($member['sex'] eq 0)">女</if>
-                        </td>
+                        <th>主题</th>
+                        <td>{$news.theme}</td>
                     </tr>
                     <tr>
-                        <th>邮箱</th>
-                        <td>{$member.email}</td>
+                        <th>内容</th>
+                        <td>{$news.content}</td>
+                    </tr>
+                    <tr>
+                        <th>资讯简介</th>
+                        <td>{$news.introduction}</td>
+                    </tr>
+                    <tr>
+                        <th>发布者</th>
+                        <td>{$news.user}</td>
+                    </tr>
+                    <tr>
                         <th>联系方式</th>
-                        <td>{$member.phone}</td>
+                        <td>{$news.email}</td>
                     </tr>
                     <tr>
-                        <th>最后访问IP</th>
-                        <td>{$member.ip}</td>
-                        <th>加入时间</th>
-                        <td>{$member.add_time}</td>
-                    </tr>
-                    <tr>
-                        <th>个人简介</th>
-                        <td colspan="4">{$member.introduction}</td>
+                        <th>发布时间</th>
+                        <td>{$news.add_time}</td>
                     </tr>
                     </tbody>
                 </table>
