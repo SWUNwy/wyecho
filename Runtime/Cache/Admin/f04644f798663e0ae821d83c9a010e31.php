@@ -66,6 +66,7 @@
                                 <th>主题</th>
                                 <th>内容</th>
                                 <th>发布者</th>
+                                <th>发布者联系方式</th>
                                 <th>时间</th>
                                 <th>操作</th>
                             </tr>
@@ -76,19 +77,15 @@
                                         <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($vo["id"]); ?>">
                                     </td>
                                     <td><?php echo ($vo["theme"]); ?></td>
+                                    <td><?php echo ($vo["content"]); ?></td>
+                                    <td><?php echo ($vo["user"]); ?></td>
+                                    <td><?php echo ($vo["email"]); ?></td>
+                                    <td><?php echo ($vo["add_time"]); ?></td>
                                     <td>
-                                        <?php echo ($vo["content"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["user"]); ?>
-                                    </td>
-                                    <td>
-                                        <?php echo ($vo["add_time"]); ?>
-                                    </td>
-                                    <td>
-                                        <a href="<?php echo U('News/detailSports',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('News/editSports',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('News/delete',['id'=>$vo['id'],'tableName'=>'Sports']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('News/detailNews',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="<?php echo U('News/editNews',['id'=>$vo['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="<?php echo U('News/delete',['id'=>$vo['id']]);?>"><button type="button" 
+                                        class="btn btn-outline btn-warning btn-xs">删除</button></a>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>

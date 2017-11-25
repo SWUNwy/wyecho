@@ -1,4 +1,4 @@
-var start = {
+var add_time = {
     elem: '#start',
     format: 'YYYY/MM/DD',
     istime: true,
@@ -17,7 +17,7 @@ var end = {
         start.max = datas; //结束日选好后，重置开始日的最大日期
     }
 };
-laydate(start);
+laydate(add_time);
 laydate(end);
 
 $(document).ready(function(){

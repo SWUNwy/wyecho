@@ -47,79 +47,43 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>添加运动会</h5>
+                    <h5>添加资讯</h5>
                 </div>
+                <form action="<?php echo U('News/save');?>" method="post" >
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">运动会主题</label>
+                            <label class="col-sm-2 control-label">资讯主题</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="theme" placeholder="请填写运动会主题" id="theme">
+                                <input type="text" class="form-control" name="theme" placeholder="请填写资讯主题" id="theme">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">主办方</label>
+                            <label class="col-sm-2 control-label">资讯内容</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="host" placeholder="请填写运动会主办方" id="host">
+                                <textarea type="text" class="form-control" name="content" placeholder="请填写资讯内容" id="content"></textarea>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">承办方</label>
+                            <label class="col-sm-2 control-label">发布者</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="undertake" placeholder="请填写运动会承办方" id="undertake">
+                                <input type="text" class="form-control" name="user" placeholder="请填写资讯发布者" id="user">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">运动会时间</label>
+                            <label class="col-sm-2 control-label">发布者联系方式</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control layer-date" name="start_time" placeholder="运动会开始时间" id="start">
-                                <input type="text" class="form-control layer-date" name="end_time" placeholder="运动会结束时间" id="end">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">运动会地点</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="address" placeholder="请填写运动会地点" id="address">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">负责人</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="header" placeholder="请填写运动会负责人" id="header">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">负责人联系方式</label>
-
-                            <div class="col-sm-10">
-                                <input type="text" class="form-control" name="phone" placeholder="请填写运动会负责人联系方式" id="phone">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
-
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">运动会简介</label>
-
-                            <div class="col-sm-10">
-                                <textarea type="text" class="form-control layer-date" name="introduct" placeholder="请填写运动会简介" id="introduct"></textarea>
+                                <input type="text" class="form-control" name="email" placeholder="请填写发布者联系方式" id="email">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -131,17 +95,18 @@
                         </div>
                     </div>
                 </div>
+                </from>
             </div>
         </div>
     </div>
 </div>
-<script>
+<!-- <script>
     //定义全局变量
     var GV = {
         sports_addsporst : "<?php echo U('Sports/addSports');?>"
     };
-</script>
-<script src="/wyecho/public/Admin/js/http/sports/addsports.js"></script>
+</script> -->
+<!-- <script src="/wyecho/public/Admin/js/http/sports/addsports.js"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

@@ -82,7 +82,7 @@
                     </tr>
                     <tr>
                         <th>个人简介</th>
-                        <td colspan="4"><?php echo ($member["introduct"]); ?></td>
+                        <td colspan="4"><?php echo ($member["introduction"]); ?></td>
                     </tr>
                     </tbody>
                 </table>
