@@ -75,4 +75,13 @@ class NewsController extends Controller {
     	}
     }
 
+    public function delete() {
+        $id = I('id');
+        $result = M('news')->delete($id);
+        if ($result) {
+            $this->success('删除成功!');
+        } else {
+            $this->error('删除失败!');
+        }
+    }
 }
