@@ -26,4 +26,10 @@ class NewsController extends Controller {
     public function addNews() {
         $this->display();
     }
+
+    public function editNews() {
+    	$this->display();
+    }
+
+
 }

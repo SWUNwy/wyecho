@@ -24,6 +24,7 @@
                                 <th>主题</th>
                                 <th>内容</th>
                                 <th>发布者</th>
+                                <th>发布者联系方式</th>
                                 <th>时间</th>
                                 <th>操作</th>
                             </tr>
@@ -35,15 +36,10 @@
                                         <input type="checkbox" class="i-checks" name="id[]" value="{$vo.id}">
                                     </td>
                                     <td>{$vo.theme}</td>
-                                    <td>
-                                        {$vo.content}
-                                    </td>
-                                    <td>
-                                        {$vo.user}
-                                    </td>
-                                    <td>
-                                        {$vo.add_time}
-                                    </td>
+                                    <td>{$vo.content}/td>
+                                    <td>{$vo.user}</td>
+                                    <td>{$vo.email}</td>
+                                    <td>{$vo.add_time}</td>
                                     <td>
                                         <a href="{:U('News/detailSports',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
                                         <a href="{:U('News/editSports',['id'=>$vo['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
