@@ -63,11 +63,11 @@
                             <thead>
                             <tr>
                                 <th></th>
-                                <th>新闻标题</th>
-                                <th>新闻作者</th>
+                                <th>博文标题</th>
+                                <th>博文作者</th>
                                 <th>发布时间</th>
                                 <th>所属分类</th>
-                                <th>新闻标签</th>
+                                <th>博文标签</th>
                                 <th>状态</th>
                                 <th>操作</th>
                             </tr>
@@ -77,10 +77,10 @@
                                     <td>
                                         <input type="checkbox" class="i-checks" name="input[]">
                                     </td>
-                                    <td><?php echo ($newslist["title"]); ?></td>
-                                    <td><?php echo ($newslist["author"]); ?></td>
-                                    <td><?php echo (date("Y-m-d H:i:s",$newslist["create_time"])); ?></td>
-                                    <td><?php echo ($newslist["cate_title"]); ?></td>
+                                    <td><?php echo ($bloglist["title"]); ?></td>
+                                    <td><?php echo ($bloglist["author"]); ?></td>
+                                    <td><?php echo (date("Y-m-d H:i:s",$bloglist["create_time"])); ?></td>
+                                    <td><?php echo ($bloglist["cate_title"]); ?></td>
                                     <td>
                                         <?php if($newslist['label'] == 0): ?><span style="color: green;">普通</span><?php endif; ?>
                                         <?php if($newslist['label'] == 1): ?><span style="color: red;">置顶</span><?php endif; ?>
@@ -92,12 +92,12 @@
                                         <?php if($newslist['status'] == 1): ?><span style="color: red">禁用</span><?php endif; ?>
                                     </td>
                                     <td>
-                                        <?php if($newslist['status'] == 0): ?><a href="<?php echo U('News/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                        <?php if($newslist['status'] == 0): ?><a href="<?php echo U('Blog/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                             <?php else: ?>
-                                            <a href="<?php echo U('News/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
-                                        <a href="<?php echo U('News/detailnews',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('News/editnews',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('News/remove',['id'=>$newslist['id'],'tableName'=>'News','remove'=>1]);?>" class="ajax-remove"><button type="button" class="btn btn-outline btn-warning btn-xs">移除</button></a>                                    </td>
+                                            <a href="<?php echo U('Blog/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
+                                        <a href="<?php echo U('Blog/detail',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="<?php echo U('Blog/editBlig',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="<?php echo U('Blog/remove',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-warning btn-xs">移除</button></a>                                    </td>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
