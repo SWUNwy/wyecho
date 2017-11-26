@@ -50,4 +50,25 @@ class DocController extends Controller {
         }
     }
 
+    public function download() {
+        $id = I('id');
+        $result = M('files')->find($id);
+        $url = $_SERVER['DOCUMENT_ROOT'].__ROOT__.'/'.$result['path'];
+        //导入下载类
+        import('Org.Net.Http');
+
+        Http::download($url,$result['name']);
+    } else {
+        $this->error('非法请求!');
+    }
+
+    public function delete() {
+        $id = I('id');
+        $res = M('files')->delete($id);
+        if ($res) {
+            $this->success('删除成功!');
+        } else {
+            $this->error('删除失败!');
+        }
+    }
 }
