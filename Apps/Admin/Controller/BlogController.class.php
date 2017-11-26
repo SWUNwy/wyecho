@@ -38,7 +38,13 @@ class BlogController extends Controller {
     public function editBlog() {
         $this->display();
     }
-    
+
+    /**
+     * [save description]
+     * @return [type] [description]
+     */
+    public function save() {}
+
     /**
      * 分类列表
      */
