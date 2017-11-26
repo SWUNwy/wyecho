@@ -80,7 +80,7 @@
 <script>
     //定义全局变量
     var GV = {
-        doc_doclist : "<?php echo U('Doc/docList');?>",
+        doc_doclist : "<?php echo U('Doc/index');?>",
     };
 </script>
 <script src="/wyecho/public/Admin/js/http/doc/adddoc.js"></script>

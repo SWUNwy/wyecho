@@ -15,7 +15,7 @@ jQuery(function() {
         swf: '__JS__/plugins/webuploader/Uploader.swf',
 
         // 文件接收服务端。
-        server: '/union/admin.php/Upload/uploadDoc',
+        server: './index.php/',
 
         // 选择文件的按钮。可选。
         // 内部根据当前运行是创建，可能是input元素，也可能是flash.

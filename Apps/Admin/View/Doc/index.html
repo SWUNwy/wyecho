@@ -29,22 +29,22 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <volist name="doclist" id="doclist">
+                            <volist name="date" id="list">
                                 <tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="{$doclist.id}">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="{$list.id}">
                                     </td>
                                     <td>{$doclist.id}</td>
-                                    <td><a href="{:U('doc/download',['id'=>$doclist['id']])}" title="点击下载">{$doclist.name}</a></td>
+                                    <td><a href="{:U('doc/download',['id'=>$list['id']])}" title="点击下载">{$list.name}</a></td>
                                     <td>
-                                        {$doclist.size}
+                                        {$list.size}
                                     </td>
                                     <td>
-                                        {$doclist.create_time|date="Y-m-d H:i:s",###}
+                                        {$list.create_time|date="Y-m-d H:i:s",###}
                                     </td>
                                     <td>
-                                        <a href="{:U('doc/download',['id'=>$doclist['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">下载</button></a>
-                                        <a href="{:U('doc/delete',['id'=>$doclist['id'],'tableName'=>'Doc'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-danger btn-xs">删除</button></a>                                    </td>
+                                        <a href="{:U('doc/download',['id'=>$list['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">下载</button></a>
+                                        <a href="{:U('doc/delete',['id'=>$doclist['id']])}"><button type="button" class="btn btn-outline btn-danger btn-xs">删除</button></a>
                                     </td>
                                 </tr>
                             </volist>
