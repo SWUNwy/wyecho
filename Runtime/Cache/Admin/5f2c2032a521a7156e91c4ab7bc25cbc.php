@@ -47,30 +47,31 @@
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
-                        <h5>发布新闻</h5>
+                        <h5>新增博文</h5>
                     </div>
+                    <form method="post" action="">
                     <div class="ibox-content">
                         <div class="form-horizontal">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">新闻标题</label>
+                                <label class="col-sm-2 control-label">博文标题</label>
 
                                 <div class="col-sm-10">
-                                    <input type="text" placeholder="请输入新闻标题" class="form-control" name="title" id="title">
+                                    <input type="text" placeholder="请输入博文标题" class="form-control" name="title" id="title">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">新闻作者</label>
+                                <label class="col-sm-2 control-label">博文作者</label>
 
                                 <div class="col-sm-10">
-                                    <input type="text" placeholder="请输入新闻作者" class="form-control" name="author" id="author">
+                                    <input type="text" placeholder="请输入博文作者" class="form-control" name="author" id="author">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">新闻分类</label>
+                                <label class="col-sm-2 control-label">博文分类</label>
 
                                 <div class="col-sm-10">
                                     <select class="form-control m-b" name="cate_id" id="cate_id">
@@ -81,7 +82,7 @@
                             <div class="hr-line-dashed"></div>
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">新闻内容</label>
+                                <label class="col-sm-2 control-label">博文内容</label>
                                 <div class="col-sm-10">
                                     <div class="summernote" id="content">
 
@@ -89,13 +90,10 @@
                                 </div>
                             </div>
 
-
-
-
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    新闻标签
+                                    博文标签
                                 </label>
 
                                 <div class="col-sm-10">
@@ -110,7 +108,7 @@
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">
-                                    新闻状态
+                                    博文状态
                                 </label>
 
                                 <div class="col-sm-10">
@@ -128,6 +126,7 @@
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -139,7 +138,7 @@
     };
 </script>
 <script src="/wyecho/public/Admin/js/http/news/addnews.js"></script>
-<script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+<!-- <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

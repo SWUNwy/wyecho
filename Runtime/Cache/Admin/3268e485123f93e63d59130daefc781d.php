@@ -49,13 +49,33 @@
                 <div class="ibox-title">
                     <h5>站点配置</h5>
                 </div>
+                <form method="post" action="<?php echo U('System/save');?>">
+                <?php if(is_array($sys)): $i = 0; $__LIST__ = $sys;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><input type="hidden" name="id" id="id" value="<?php echo ($vo["id"]); ?>">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">版权信息</label>
+                            <label class="col-sm-2 control-label">标题</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="copyright" value="<?php echo ($config["copyright"]); ?>" placeholder="请填写版权信息" id="copyright">
+                                <input type="text" class="form-control" name="title" value="<?php echo ($vo["title"]); ?>" placeholder="请填写版权信息" id="title">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">关键词</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="keywords" value="<?php echo ($vo["keywords"]); ?>" placeholder="请填写版权信息" id="keywords">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">描述</label>
+
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" name="description" value="<?php echo ($vo["description"]); ?>" placeholder="请填写版权信息" id="description">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -64,37 +84,48 @@
                             <label class="col-sm-2 control-label">ICP备案号</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="icp" value="<?php echo ($config["icp"]); ?>" placeholder="请填写ICP备案号" id="icp">
+                                <input type="text" class="form-control" name="icp" value="<?php echo ($vo["icp"]); ?>" placeholder="请填写ICP备案号" id="icp">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">统计代码</label>
+                            <label class="col-sm-2 control-label">版权信息</label>
 
                             <div class="col-sm-10">
-                                <textarea  type="text" class="form-control" name="count" value="<?php echo ($config["count"]); ?>" placeholder="请填写统计代码" id="count"><?php echo ($config["count"]); ?></textarea>
+                                <input type="text" class="form-control" name="copyright" value="<?php echo ($vo["copyright"]); ?>" placeholder="请填写版权信息" id="copyright">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
+
+
+<!--                         <div class="form-group">
+                            <label class="col-sm-2 control-label">统计代码</label>
+
+                            <div class="col-sm-10">
+                                <textarea  type="text" class="form-control" name="count" value="<?php echo ($vo["count"]); ?>" placeholder="请填写统计代码" id="count"><?php echo ($vo["count"]); ?></textarea>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div> -->
 
                         <div class="form-group">
                             <div class="col-sm-4 col-sm-offset-2">
                                 <button class="btn btn-primary" id="save">保存内容</button>
-                                <button class="btn btn-white" type="button" onclick="reset();">重置</button>
+<!--                                 <button class="btn btn-white" type="button" onclick="reset();">重置</button> -->
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                </form>
             </div>
         </div>
     </div>
 </div>
-<script>
+<!-- <script>
     //定义全局变量
-    var GV = {
-        system_siteconfig : "<?php echo U('System/index');?>"
-    };
+    // var GV = {
+    //     system_siteconfig : "<?php echo U('System/index');?>"
+    // };
 
     //重置操作
     function reset(){
@@ -102,8 +133,8 @@
         $("input[name='icp']").val("");
         $("#count").val("");
     }
-</script>
-<script src="/wyecho/public/Admin/js/http/system/siteconfig.js"></script>
+</script> -->
+<!-- <script src="/wyecho/public/Admin/js/http/system/siteconfig.js"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->
