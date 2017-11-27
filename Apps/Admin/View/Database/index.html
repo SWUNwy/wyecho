@@ -40,6 +40,7 @@
                                     <th>数据量</th>
                                     <th>数据大小</th>
                                     <th>创建时间</th>
+                                    <th>最后修改时间</th>
                                     <th>备份状态</th>
                                     <th>操作</th>
                                 </tr>
@@ -54,20 +55,23 @@
                                         <td class="num">
                                             <input class="i-checks ids" checked="chedked" type="checkbox" name="tables[]" value="{$table.name}">
                                         </td>
-                                        <td>{$table.name}</td>
+                                        <td>{$table.Name}</td>
                                         <td>
-                                            {$table.rows}
+                                            {$table.Rows}
                                         </td>
                                         <td>
-                                            {$table.data_length|format_bytes}
+                                            {$table.Data_length}&nbsp;B
                                         </td>
                                         <td>
-                                            {$table.create_time}
+                                            {$table.Create_time}
+                                        </td>
+                                        <td>
+                                            {$table.Update_time}
                                         </td>
                                         <td class="info">未备份</td>
                                         <td>
-                                            <a href="{:U('Database/optimize',['tables'=>$table['name']])}" class="ajax-get"><button type="button" class="btn btn-outline btn-primary btn-xs">优化表</button></a>
-                                            <a href="{:U('Database/repair',['tables'=>$table['name']])}" class="ajax-get"><button type="button" class="btn btn-outline btn-default btn-xs">修复表</button></a>
+                                            <a href="{:U('Database/optimize',['tables'=>$table['Name']])}" class="ajax-get"><button type="button" class="btn btn-outline btn-primary btn-xs">优化表</button></a>
+                                            <a href="{:U('Database/repair',['tables'=>$table['Name']])}" class="ajax-get"><button type="button" class="btn btn-outline btn-default btn-xs">修复表</button></a>
                                         </td>
                                     </tr>
                                 </volist>

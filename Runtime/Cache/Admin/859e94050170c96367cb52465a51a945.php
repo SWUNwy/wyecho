@@ -299,18 +299,18 @@
                         <?php if(in_array('31',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a class="J_menuItem" href="<?php echo U('Database/export');?>">备份数据库</a>
+                                <a class="J_menuItem" href="<?php echo U('Database/index');?>">备份数据库</a>
                             </li>
                         </ul>
                         <?php } ?>
 
-                        <?php if(in_array('32',$auth)||$auth==''){ ?>
+<!--                         <?php if(in_array('32',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Database/import');?>">还原数据库</a>
                             </li>
                         </ul>
-                        <?php } ?>
+                        <?php } ?> -->
                     </li>
                     <?php } ?>
                 </ul>
