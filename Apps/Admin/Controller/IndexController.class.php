@@ -7,6 +7,10 @@ use Think\Controller;
 class IndexController extends Controller {
 
     public function index() {
+
+        $usernamae =  M('user')->where(['id'=>session('admin_id')])->getField('uname');
+        $this->assign('user_id',session('admin_id'));
+        $this->assign('username',$usernamae);
         $this->display();
     }
 
