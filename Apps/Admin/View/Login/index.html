@@ -17,23 +17,23 @@
 </head>
 <body class="login">
 <div class="login-title">后台管理</div>
-<form class="layui-form login-form" action="" method="post">
+<form class="layui-form login-form" action="{:U('Login/login')}" method="post">
     <div class="layui-form-item">
         <label class="layui-form-label">用户名</label>
         <div class="layui-input-block">
-            <input type="text" name="username" autocomplete="off" class="layui-input">
+            <input type="text" name="uname" id="uname" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">密码</label>
         <div class="layui-input-block">
-            <input type="password" name="password" class="layui-input">
+            <input type="password" name="pwd" id="pwd" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
         <label class="layui-form-label">验证码</label>
         <div class="layui-input-block">
-            <input type="text" name="verify" class="layui-input layui-input-inline">
+            <input type="text" name="verify" id="verify" class="layui-input layui-input-inline">
             <img src="{:U('Login/verify')}" alt="点击更换" title="点击更换" onclick="this.src='{:U('Login/verify')}?time='+Math.random()" class="captcha">
         </div>
     </div>
@@ -43,7 +43,7 @@
         </div>
     </div>
 </form>
-<script>
+<!-- <script>
     // 定义全局JS变量
     var GV = {
         current_controller: "admin/{$controller|default=''}/",
@@ -54,6 +54,6 @@
 <script src="__JS__/login/jquery.min.js"></script>
 <script src="__JS__/login/layui/lay/dest/layui.all.js"></script>
 <script src="__JS__/login/admin.js"></script>
-<script src="__JS__/http/login/login.js"></script>
+<script src="__JS__/http/login/login.js"></script> -->
 </body>
 </html>
