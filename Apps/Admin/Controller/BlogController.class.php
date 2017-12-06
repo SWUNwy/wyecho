@@ -87,15 +87,16 @@ class BlogController extends Controller {
 
     public function remove() {
         $id = I('id');
+        $remove = I('remove');
         $data = array(
-            'remove'    => '1',
+            'remove'    => $remove,
             'last_time' => date('Y-m-d H:i:s')
             );
         $result = M('blog')->where(['id'=>$id])->setField($data);
         if ($result) {
-            $this->success('放置回收站成功!');
+            $this->success('操作成功!');
         } else {
-            $this->error('放置回收站失败!');
+            $this->error('操作失败!');
         }
     }
 
@@ -103,6 +104,17 @@ class BlogController extends Controller {
      * 
      */
     public function recycle() {
+        $blog = M('blog');
+
+        import('Org.Util.Page');
+
+        $count = $blog->count();
+        //实例化分页类 传入总记录数和每页显示的记录数
+        $Page = new \Think\Page($count,10);
+        $show = $Page->show();
+        $list = $blog->where(['remove'=>1])->order('last_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $this->assign('list',$list);
+        $this->assign('page',$show);
         $this->display();
     }
     

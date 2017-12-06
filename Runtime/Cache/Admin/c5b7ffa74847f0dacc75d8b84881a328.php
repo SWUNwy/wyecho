@@ -42,70 +42,71 @@
 
 <body class="gray-bg">
 
-    <div class="wrapper wrapper-content animated fadeInRight">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title">
-                        <h5>回收站列表</h5>
-                    </div>
-                    <div class="ibox-content">
-                        <div class="row">
-                            <div class="col-sm-3" style="float: right;">
-                                <!-- <div class="input-group">
-                                    <input type="text" placeholder="请输入新闻标题" class="input-sm form-control"> <span class="input-group-btn">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>新闻列表</h5>
+                </div>
+                <div class="ibox-content">
+                    <div class="row">
+                        <div class="col-sm-3" style="float: right;">
+                            <!-- <div class="input-group">
+                                <input type="text" placeholder="请输入新闻标题" class="input-sm form-control"> <span class="input-group-btn">
                                 <button type="button" class="btn btn-sm btn-primary"> 搜索</button> </span>
-                                </div> -->
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="table-responsive">
-                            <table class="table table-striped">
-                                <thead>
-                                <tr>
-                                    <th></th>
-                                    <th>新闻标题</th>
-                                    <th>新闻作者</th>
-                                    <th>发布时间</th>
-                                    <th>所属分类</th>
-                                    <th>新闻标签</th>
-                                    <th>状态</th>
-                                    <th>操作</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <?php if(is_array($newslist)): $i = 0; $__LIST__ = $newslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$newslist): $mod = ($i % 2 );++$i;?><tr>
-                                        <td>
-                                            <input type="checkbox" class="i-checks" name="input[]">
-                                        </td>
-                                        <td><?php echo ($newslist["title"]); ?></td>
-                                        <td><?php echo ($newslist["author"]); ?></td>
-                                        <td><?php echo (date("Y-m-d H:i:s",$newslist["create_time"])); ?></td>
-                                        <td><?php echo ($newslist["cate_title"]); ?></td>
-                                        <td>
-                                            <?php if($newslist['label'] == 0): ?><span style="color: green;">普通</span><?php endif; ?>
-                                            <?php if($newslist['label'] == 1): ?><span style="color: red;">置顶</span><?php endif; ?>
-                                            <?php if($newslist['label'] == 2): ?><span style="color: blue;">推荐</span><?php endif; ?>
-                                            <?php if($newslist['label'] == 3): ?><span style="color: orange;">热点</span><?php endif; ?>
-                                        </td>
-                                        <td>
-                                            <?php if($newslist['status'] == 0): ?><span style="color: green">启用</span><?php endif; ?>
-                                            <?php if($newslist['status'] == 1): ?><span style="color: green">禁用</span><?php endif; ?>
-                                        </td>
-                                        <td>
-                                            <a href="<?php echo U('News/remove',['id'=>$newslist['id'],'tableName'=>'News','remove'=>0]);?>" class="ajax-remove"><button type="button" class="btn btn-outline btn-primary btn-xs">恢复</button></a>
-                                            <a href="<?php echo U('News/delete',['id'=>$newslist['id'],'tableName'=>'Category']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
-                                        </td>
-                                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                                </tbody>
-                            </table>
-                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                            <tr>
+                                <th></th>
+                                <th>博文标题</th>
+                                <th>博文作者</th>
+                                <th>发布时间</th>
+                                <th>所属分类</th>
+                                <th>博文标签</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
+                                    <td>
+                                        <input type="checkbox" class="i-checks" name="input[]">
+                                    </td>
+                                    <td><?php echo ($list["title"]); ?></td>
+                                    <td><?php echo ($list["author"]); ?></td>
+                                    <td><?php echo ($list["add_time"]); ?></td>
+                                    <td><?php echo ($list["category_name"]); ?></td>
+                                    <td>
+                                        <?php if($list['label'] == 0): ?><span style="color: green;">普通</span><?php endif; ?>
+                                        <?php if($list['label'] == 1): ?><span style="color: red;">置顶</span><?php endif; ?>
+                                        <?php if($list['label'] == 2): ?><span style="color: blue;">推荐</span><?php endif; ?>
+                                        <?php if($list['label'] == 3): ?><span style="color: orange;">热点</span><?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <?php if($list['status'] == 0): ?><span style="color: green">启用</span><?php endif; ?>
+                                        <?php if($list['status'] == 1): ?><span style="color: red">禁用</span><?php endif; ?>
+                                    </td>
+                                    <td>
+                                        <a href="<?php echo U('Blog/remove',['id'=>$list['id'],'remove'=>0]);?>" ><button type="button" class="btn btn-outline btn-primary btn-xs">恢复</button></a>
+                                        <a href="<?php echo U('Blog/delete',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
+                                    </td>
+                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                            </tbody>
+                        </table>
+                    </div>
                         <div style="text-align: center;"><?php echo ($page); ?></div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
-    </div>
+</div>
 <script src="/wyecho/public/Admin/js/http/ajax.js"></script>
 
 </body>
