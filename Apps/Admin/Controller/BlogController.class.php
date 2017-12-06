@@ -21,7 +21,7 @@ class BlogController extends Controller {
         //实例化分页类 传入总记录数和每页显示的记录数
         $Page = new \Think\Page($count,10);
         $show = $Page->show();
-        $list = $blog->order('last_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $list = $blog->where(['remove'=>0])->order('last_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
         $this->assign('list',$list);
         $this->assign('page',$show);
         $this->display();
@@ -75,6 +75,30 @@ class BlogController extends Controller {
         $this->display();
     }
     
+    public function delete() {
+        $id = I('id');
+        $result = M('blog')->delete($id);
+        if ($result) {
+            $this->success("删除成功!");
+        } else {
+            $this->error("删除失败!");
+        }
+    }
+
+    public function remove() {
+        $id = I('id');
+        $data = array(
+            'remove'    => '1',
+            'last_time' => date('Y-m-d H:i:s')
+            );
+        $result = M('blog')->where(['id'=>$id])->setField($data);
+        if ($result) {
+            $this->success('放置回收站成功!');
+        } else {
+            $this->error('放置回收站失败!');
+        }
+    }
+
     /**
      * 
      */
