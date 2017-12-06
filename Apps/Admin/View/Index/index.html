@@ -92,29 +92,6 @@
                     </li>
                     <?php } ?>
 
-<!--                    <?php if(in_array('4',$auth)||$auth==''){ ?>
-                    <li>
-                        <a href="#shield">
-                            <i class="fa fa-shield" style="font-size: 18px;"></i>
-                            <span class="nav-label">&nbsp;奖惩管理</span>
-                            <span class="fa arrow"></span>
-                        </a>
-                        <ul class="nav nav-second-level">
-                            <?php if(in_array('5',$auth)||$auth==''){ ?>
-                            <li>
-                                <a class="J_menuItem" href="{:U('Reward/addReward')}">添加记录</a>
-                            </li>
-                            <?php } ?>
-
-                            <?php if(in_array('6',$auth)||$auth==''){ ?>
-                            <li>
-                                <a class="J_menuItem" href="{:U('Reward/rewardList')}">奖惩记录</a>
-                            </li>
-                            <?php } ?>
-                        </ul>
-                    </li>
-                    <?php } ?>-->
-
                     <?php if(in_array('7',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#balance-scale">
@@ -148,13 +125,13 @@
                         <ul class="nav nav-second-level">
                             <?php if(in_array('11',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="{:U('Blog/addBlog')}">发布博文</a>
+                                <a class="J_menuItem" href="{:U('Blog/index')}">博文列表</a>
                             </li>
                             <?php } ?>
 
                             <?php if(in_array('12',$auth)||$auth==''){ ?>
                             <li>
-                                <a class="J_menuItem" href="{:U('Blog/index')}">博文列表</a>
+                                <a class="J_menuItem" href="{:U('Blog/addBlog')}">发布博文</a>
                             </li>
                             <?php } ?>
 

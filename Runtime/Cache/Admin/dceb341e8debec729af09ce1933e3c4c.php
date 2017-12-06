@@ -73,29 +73,29 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($newslist)): $i = 0; $__LIST__ = $newslist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$newslist): $mod = ($i % 2 );++$i;?><tr>
+                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
                                     <td>
                                         <input type="checkbox" class="i-checks" name="input[]">
                                     </td>
-                                    <td><?php echo ($bloglist["title"]); ?></td>
-                                    <td><?php echo ($bloglist["author"]); ?></td>
-                                    <td><?php echo (date("Y-m-d H:i:s",$bloglist["create_time"])); ?></td>
-                                    <td><?php echo ($bloglist["cate_title"]); ?></td>
+                                    <td><?php echo ($list["title"]); ?></td>
+                                    <td><?php echo ($list["author"]); ?></td>
+                                    <td><?php echo ($list["add_time"]); ?></td>
+                                    <td><?php echo ($list["category_name"]); ?></td>
                                     <td>
-                                        <?php if($newslist['label'] == 0): ?><span style="color: green;">普通</span><?php endif; ?>
-                                        <?php if($newslist['label'] == 1): ?><span style="color: red;">置顶</span><?php endif; ?>
-                                        <?php if($newslist['label'] == 2): ?><span style="color: blue;">推荐</span><?php endif; ?>
-                                        <?php if($newslist['label'] == 3): ?><span style="color: orange;">热点</span><?php endif; ?>
+                                        <?php if($list['label'] == 0): ?><span style="color: green;">普通</span><?php endif; ?>
+                                        <?php if($list['label'] == 1): ?><span style="color: red;">置顶</span><?php endif; ?>
+                                        <?php if($list['label'] == 2): ?><span style="color: blue;">推荐</span><?php endif; ?>
+                                        <?php if($list['label'] == 3): ?><span style="color: orange;">热点</span><?php endif; ?>
                                     </td>
                                     <td>
-                                        <?php if($newslist['status'] == 0): ?><span style="color: green">启用</span><?php endif; ?>
-                                        <?php if($newslist['status'] == 1): ?><span style="color: red">禁用</span><?php endif; ?>
+                                        <?php if($list['status'] == 0): ?><span style="color: green">启用</span><?php endif; ?>
+                                        <?php if($list['status'] == 1): ?><span style="color: red">禁用</span><?php endif; ?>
                                     </td>
                                     <td>
-                                        <?php if($newslist['status'] == 0): ?><a href="<?php echo U('Blog/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                        <?php if($list['status'] == 0): ?><a href="<?php echo U('Blog/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                             <?php else: ?>
                                             <a href="<?php echo U('Blog/setStatus',['id'=>$newslist['id'],'tableName'=>'News','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
-                                        <a href="<?php echo U('Blog/detail',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
+                                        <a href="<?php echo U('Blog/getDetail',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
                                         <a href="<?php echo U('Blog/editBlig',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
                                         <a href="<?php echo U('Blog/remove',['id'=>$newslist['id']]);?>"><button type="button" class="btn btn-outline btn-warning btn-xs">移除</button></a>                                    </td>
                                     </td>
