@@ -96,7 +96,7 @@
                                             <?php else: ?>
                                             <a href="<?php echo U('Blog/setStatus',['id'=>$list['id'],'status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
                                         <a href="<?php echo U('Blog/getDetail',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-primary btn-xs">详情</button></a>
-                                        <a href="<?php echo U('Blog/editBlig',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                        <a href="<?php echo U('Blog/editBlog',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
                                         <a href="<?php echo U('Blog/remove',['id'=>$list['id'],'remove'=>1]);?>"><button type="button" class="btn btn-outline btn-warning btn-xs">移至回收站</button></a>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>

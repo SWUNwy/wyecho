@@ -45,6 +45,11 @@ class BlogController extends Controller {
      * 编辑博文
      */
     public function editBlog() {
+        $id = I('id');
+        $blog = M('blog')->find($id);
+        p($blog);
+        die();
+        $this->assign('blog',$blog);
         $this->display();
     }
 
