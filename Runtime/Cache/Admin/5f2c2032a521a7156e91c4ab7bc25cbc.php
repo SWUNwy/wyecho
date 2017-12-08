@@ -49,7 +49,7 @@
                     <div class="ibox-title">
                         <h5>新增博文</h5>
                     </div>
-                    <form method="post" action="">
+                    <form method="post" action="<?php echo U('Blog/save');?>">
                     <div class="ibox-content">
                         <div class="form-horizontal">
                             <div class="form-group">
@@ -74,8 +74,8 @@
                                 <label class="col-sm-2 control-label">博文分类</label>
 
                                 <div class="col-sm-10">
-                                    <select class="form-control m-b" name="cate_id" id="cate_id">
-                                        <?php if(is_array($cate)): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cate): $mod = ($i % 2 );++$i;?><option value="<?php echo ($cate["id"]); ?>"><?php echo ($cate["level"]); echo ($cate["title"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    <select class="form-control m-b" name="category_id" id="category_id">
+                                        <?php if(is_array($cate)): $i = 0; $__LIST__ = $cate;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$cate): $mod = ($i % 2 );++$i;?><option value="<?php echo ($category["id"]); ?>"><?php echo ($category["level"]); echo ($category["title"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
                                     </select>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">博文内容</label>
                                 <div class="col-sm-10">
-                                    <div class="summernote" id="content">
+                                    <div class="summernote" id="content" name="content">
 
                                     </div>
                                 </div>
@@ -113,8 +113,8 @@
 
                                 <div class="col-sm-10">
                                     <div class="radio i-checks">
-                                        <label><input type="radio" value="0" name="status" checked="checked"> <i></i> 启用</label>
-                                        <label><input type="radio" value="1" name="status"> <i></i> 禁用</label>
+                                        <label><input type="radio" value="1" name="status" checked="checked"> <i></i> 启用</label>
+                                        <label><input type="radio" value="0" name="status"> <i></i> 禁用</label>
                                     </div>
                                 </div>
                             </div>
@@ -131,14 +131,13 @@
             </div>
         </div>
 </div>
-<script>
+<!-- <script>
     //定义全局变量
     var GV = {
         news_addnews : "<?php echo U('news/addnews');?>"
     };
-</script>
+</script> -->
 <script src="/wyecho/public/Admin/js/http/news/addnews.js"></script>
-<!-- <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

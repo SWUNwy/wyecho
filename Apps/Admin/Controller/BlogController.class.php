@@ -57,7 +57,20 @@ class BlogController extends Controller {
      * [save description]
      * @return [type] [description]
      */
-    public function save() {}
+    public function save() {
+        $id = I('id');
+        $data = array(
+            'title'     => I('title'),
+            'author'    => I('author'),
+            'category_id'   => I('category_id'),
+            'content'       => I('content'),
+            'label'         => I('label'),
+            'status'        => I('status'),
+            'add_time'      => date('Y-m-d H:i:s')
+            );
+        p($data);
+        die();
+    }
 
     /**
      * 分类列表
