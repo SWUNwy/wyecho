@@ -86,13 +86,28 @@ class BlogController extends Controller {
     }
 
     public function remove() {
-        $id = I('id');
+        $id     = I('id');
         $remove = I('remove');
         $data = array(
             'remove'    => $remove,
             'last_time' => date('Y-m-d H:i:s')
             );
         $result = M('blog')->where(['id'=>$id])->setField($data);
+        if ($result) {
+            $this->success('操作成功!');
+        } else {
+            $this->error('操作失败!');
+        }
+    }
+
+    public function setStatus() {
+        $id     = I('id');
+        $status = I('status');
+        $data   = array(
+            'status'    => $status,
+            'last_time' => date('Y-m-d H:i:s')
+            );
+        $result = M('blog')->where('id='.$id)->setField($data);
         if ($result) {
             $this->success('操作成功!');
         } else {
