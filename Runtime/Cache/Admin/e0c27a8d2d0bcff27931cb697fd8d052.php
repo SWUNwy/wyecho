@@ -71,21 +71,21 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($doclist)): $i = 0; $__LIST__ = $doclist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$doclist): $mod = ($i % 2 );++$i;?><tr>
+                            <?php if(is_array($date)): $i = 0; $__LIST__ = $date;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
                                     <td>
-                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($doclist["id"]); ?>">
+                                        <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($list["id"]); ?>">
                                     </td>
                                     <td><?php echo ($doclist["id"]); ?></td>
-                                    <td><a href="<?php echo U('doc/download',['id'=>$doclist['id']]);?>" title="点击下载"><?php echo ($doclist["name"]); ?></a></td>
+                                    <td><a href="<?php echo U('doc/download',['id'=>$list['id']]);?>" title="点击下载"><?php echo ($list["name"]); ?></a></td>
                                     <td>
-                                        <?php echo ($doclist["size"]); ?>
+                                        <?php echo ($list["size"]); ?>
                                     </td>
                                     <td>
-                                        <?php echo (date("Y-m-d H:i:s",$doclist["create_time"])); ?>
+                                        <?php echo (date("Y-m-d H:i:s",$list["create_time"])); ?>
                                     </td>
                                     <td>
-                                        <a href="<?php echo U('doc/download',['id'=>$doclist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">下载</button></a>
-                                        <a href="<?php echo U('doc/delete',['id'=>$doclist['id'],'tableName'=>'Doc']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-danger btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('doc/download',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">下载</button></a>
+                                        <a href="<?php echo U('doc/delete',['id'=>$doclist['id']]);?>"><button type="button" class="btn btn-outline btn-danger btn-xs">删除</button></a>
                                     </td>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
