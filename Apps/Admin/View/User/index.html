@@ -33,37 +33,37 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <volist name="userlist" id="userlist">
+                            <volist name="list" id="list">
                                 <tr>
                                     <td>
                                         <input type="checkbox" class="i-checks" name="id[]" value="{$userlist.id}">
                                     </td>
-                                    <td>{$userlist.id}</td>
-                                    <td>{$userlist.username}</td>
-                                    <td>{$userlist.name}</td>
+                                    <td>{$list.id}</td>
+                                    <td>{$list.uname}</td>
+                                    <td>{$list.name}</td>
                                     <td>
-                                        {$userlist.last_login_ip}
+                                        {$list.last_ip}
                                     </td>
                                     <td>
-                                        <if condition="($userlist['last_login_time'] neq '')">{$userlist.last_login_time|date="Y-m-d H:i:s",###}</if>
+                                        <if condition="($list['last_time'] neq '')">{$list.last_time}</if>
                                     </td>
                                     <td>
-                                        {$userlist.create_time|date="Y-m-d H:i:s",###}
+                                        {$list.create_time}
                                     </td>
                                     <td>
-                                        <if condition="($userlist['update_time'] eq '')">
+                                        <if condition="($list['update_time'] eq '')">
                                             暂无记录
                                             <else/>
-                                            {$userlist.create_time|date="Y-m-d H:i:s",###}
+                                            {$list.create_time}
                                         </if>
                                     </td>
                                     <td>
-                                        <if condition="($userlist['status'] eq 0)"><span style="color:green;">启用</span></if>
-                                        <if condition="($userlist['status'] eq 1)"><span style="color:red;">禁用</span></if>
+                                        <if condition="($list['status'] eq 0)"><span style="color:green;">启用</span></if>
+                                        <if condition="($list['status'] eq 1)"><span style="color:red;">禁用</span></if>
                                     </td>
-                                    <if condition="($userlist['id'] neq 1)">
+                                    <if condition="($list['id'] neq 1)">
                                         <td>
-                                            <if condition="$userlist['status'] eq 0">
+                                            <if condition="$list['status'] eq 0">
                                                 <a href="{:U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1])}" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <else/>
                                                 <a href="{:U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>0])}" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a>

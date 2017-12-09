@@ -75,33 +75,33 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <?php if(is_array($userlist)): $i = 0; $__LIST__ = $userlist;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$userlist): $mod = ($i % 2 );++$i;?><tr>
+                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$list): $mod = ($i % 2 );++$i;?><tr>
                                     <td>
                                         <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($userlist["id"]); ?>">
                                     </td>
-                                    <td><?php echo ($userlist["id"]); ?></td>
-                                    <td><?php echo ($userlist["username"]); ?></td>
-                                    <td><?php echo ($userlist["name"]); ?></td>
+                                    <td><?php echo ($list["id"]); ?></td>
+                                    <td><?php echo ($list["uname"]); ?></td>
+                                    <td><?php echo ($list["name"]); ?></td>
                                     <td>
-                                        <?php echo ($userlist["last_login_ip"]); ?>
+                                        <?php echo ($list["last_ip"]); ?>
                                     </td>
                                     <td>
-                                        <?php if(($userlist['last_login_time'] != '')): echo (date("Y-m-d H:i:s",$userlist["last_login_time"])); endif; ?>
+                                        <?php if(($list['last_time'] != '')): echo ($list["last_time"]); endif; ?>
                                     </td>
                                     <td>
-                                        <?php echo (date("Y-m-d H:i:s",$userlist["create_time"])); ?>
+                                        <?php echo ($list["create_time"]); ?>
                                     </td>
                                     <td>
-                                        <?php if(($userlist['update_time'] == '')): ?>暂无记录
+                                        <?php if(($list['update_time'] == '')): ?>暂无记录
                                             <?php else: ?>
-                                            <?php echo (date("Y-m-d H:i:s",$userlist["create_time"])); endif; ?>
+                                            <?php echo ($list["create_time"]); endif; ?>
                                     </td>
                                     <td>
-                                        <?php if(($userlist['status'] == 0)): ?><span style="color:green;">启用</span><?php endif; ?>
-                                        <?php if(($userlist['status'] == 1)): ?><span style="color:red;">禁用</span><?php endif; ?>
+                                        <?php if(($list['status'] == 0)): ?><span style="color:green;">启用</span><?php endif; ?>
+                                        <?php if(($list['status'] == 1)): ?><span style="color:red;">禁用</span><?php endif; ?>
                                     </td>
-                                    <?php if(($userlist['id'] != 1)): ?><td>
-                                            <?php if($userlist['status'] == 0): ?><a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                    <?php if(($list['id'] != 1)): ?><td>
+                                            <?php if($list['status'] == 0): ?><a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <?php else: ?>
                                                 <a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
                                             <a href="<?php echo U('User/edituser',['id'=>$userlist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
