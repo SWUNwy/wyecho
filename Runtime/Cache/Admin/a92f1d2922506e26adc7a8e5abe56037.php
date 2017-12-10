@@ -97,8 +97,8 @@
                                             <?php echo ($list["create_time"]); endif; ?>
                                     </td>
                                     <td>
-                                        <?php if(($list['status'] == 0)): ?><span style="color:green;">启用</span><?php endif; ?>
-                                        <?php if(($list['status'] == 1)): ?><span style="color:red;">禁用</span><?php endif; ?>
+                                        <?php if(($list['status'] == 1)): ?><span style="color:green;">启用</span><?php endif; ?>
+                                        <?php if(($list['status'] == 0)): ?><span style="color:red;">禁用</span><?php endif; ?>
                                     </td>
                                     <?php if(($list['id'] != 1)): ?><td>
                                             <?php if($list['status'] == 0): ?><a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>

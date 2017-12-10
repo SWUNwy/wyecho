@@ -24,4 +24,8 @@ class UserController extends Controller {
         $this->display();
 	}
 
+	public function add() {
+		$data = array();
+	}
+
 }
