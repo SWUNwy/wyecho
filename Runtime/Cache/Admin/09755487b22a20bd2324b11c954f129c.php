@@ -47,15 +47,16 @@
         <div class="col-sm-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>添加用户</h5>
+                    <h5>添加管理员</h5>
                 </div>
+                <form method="post" action="<?php echo U('User/add');?>">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">用户名</label>
+                            <label class="col-sm-2 control-label">登录名</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="username" placeholder="请填写用户名" id="username">
+                                <input type="text" class="form-control" name="uname" id="uname" placeholder="请填写用户名">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -77,19 +78,11 @@
                             <label class="col-sm-2 control-label">密码</label>
 
                             <div class="col-sm-10">
-                                <input type="password" class="form-control" name="password" placeholder="请填写密码" id="password">
+                                <input type="password" class="form-control" name="pwd"  id="pwd" placeholder="请填写密码">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
 
-                        <div class="form-group">
-                            <label class="col-sm-2 control-label">确认密码</label>
-
-                            <div class="col-sm-10">
-                                <input type="password" class="form-control" name="confirm" placeholder="请填写确认密码" id="confirm">
-                            </div>
-                        </div>
-                        <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">
@@ -98,8 +91,8 @@
 
                             <div class="col-sm-10">
                                 <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="status" checked="checked"> <i></i> 启用</label>
-                                    <label><input type="radio" value="1" name="status"> <i></i>禁用</label>
+                                    <label><input type="radio" value="0" name="status" id="status" checked="checked"> <i></i> 启用</label>
+                                    <label><input type="radio" value="1" name="status" id="status"> <i></i>禁用</label>
                                 </div>
                             </div>
                         </div>
@@ -123,6 +116,7 @@
                         </div>
                     </div>
                 </div>
+            </form>
             </div>
         </div>
     </div>

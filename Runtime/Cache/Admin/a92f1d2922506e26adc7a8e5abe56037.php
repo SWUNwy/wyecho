@@ -69,7 +69,6 @@
                                 <th>最后登录IP</th>
                                 <th>最后登录时间</th>
                                 <th>创建时间</th>
-                                <th>修改时间</th>
                                 <th>状态</th>
                                 <th>操作</th>
                             </tr>
@@ -92,15 +91,10 @@
                                         <?php echo ($list["create_time"]); ?>
                                     </td>
                                     <td>
-                                        <?php if(($list['update_time'] == '')): ?>暂无记录
-                                            <?php else: ?>
-                                            <?php echo ($list["create_time"]); endif; ?>
-                                    </td>
-                                    <td>
                                         <?php if(($list['status'] == 1)): ?><span style="color:green;">启用</span><?php endif; ?>
                                         <?php if(($list['status'] == 0)): ?><span style="color:red;">禁用</span><?php endif; ?>
                                     </td>
-                                    <?php if(($list['id'] != 1)): ?><td>
+                                    <?php if(($list['role_id'] != 1)): ?><td>
                                             <?php if($list['status'] == 0): ?><a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <?php else: ?>
                                                 <a href="<?php echo U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
