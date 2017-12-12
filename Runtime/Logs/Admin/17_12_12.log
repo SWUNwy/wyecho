@@ -71,3 +71,267 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-12-12T22:15:16+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:15:16+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T22:15:19+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:15:27+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:setStatus
+
+[ 2017-12-12T22:15:28+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:46+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:47+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: status D:\wamp64\www\wyecho\Apps\Admin\Controller\UserController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0020s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:47' WHERE ( id=1 )
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:47' WHERE ( id=1 )
+
+[ 2017-12-12T22:18:48+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:51+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined variable: status D:\wamp64\www\wyecho\Apps\Admin\Controller\UserController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0020s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:51' WHERE ( id=1 )
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:51' WHERE ( id=1 )
+
+[ 2017-12-12T22:18:52+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-12T22:18:55+08:00 ] ::1 /wyecho/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:55+08:00 ] ::1 /wyecho/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:57+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:18:59+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp64\www\wyecho\Apps\Admin\Controller\UserController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0020s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:59' WHERE ( id=1 )
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:18:59' WHERE ( id=1 )
+
+[ 2017-12-12T22:19:00+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:19:25+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: status D:\wamp64\www\wyecho\Apps\Admin\Controller\UserController.class.php 第 59 行.
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0010s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:19:25' WHERE ( id=1 )
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:19:25' WHERE ( id=1 )
+
+[ 2017-12-12T22:19:26+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:19:28+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:19:28' WHERE ( id=1 )
+
+[ 2017-12-12T22:19:33+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:19:35+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 1048:Column 'status' cannot be null
+ [ SQL语句 ] : UPDATE `yr_user` SET `status`=NULL,`last_time`='2017-12-12 22:19:35' WHERE ( id=1 )
+
+[ 2017-12-12T22:19:39+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:02+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:04+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:05+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:15+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:17+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-12T22:20:18+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0020s ]
+SQL: UPDATE `yr_user` SET `status`='0',`last_time`='2017-12-12 22:20:18' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-12-12T22:20:20+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-12T22:20:21+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0010s ]
+SQL: UPDATE `yr_user` SET `status`='1',`last_time`='2017-12-12 22:20:21' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-12-12T22:20:22+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-12-12T22:20:25+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0010s ]
+SQL: UPDATE `yr_user` SET `status`='0',`last_time`='2017-12-12 22:20:25' WHERE ( id=1 ) [ RunTime:0.0000s ]
+
+[ 2017-12-12T22:20:26+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:20:28+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0010s ]
+SQL: UPDATE `yr_user` SET `status`='1',`last_time`='2017-12-12 22:20:28' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2017-12-12T22:20:29+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:21:04+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0020s ]
+SQL: UPDATE `yr_user` SET `status`='0',`last_time`='2017-12-12 22:21:04' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2017-12-12T22:21:05+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-12T22:21:13+08:00 ] ::1 /wyecho/index.php/Admin/User/setStatus/id/1/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yr_user` [ RunTime:0.0010s ]
+SQL: UPDATE `yr_user` SET `status`='1',`last_time`='2017-12-12 22:21:13' WHERE ( id=1 ) [ RunTime:0.0010s ]
+
+[ 2017-12-12T22:21:14+08:00 ] ::1 /wyecho/index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+

@@ -55,10 +55,10 @@
                                     </td>
                                     <if condition="($list['role_id'] neq 1)">
                                         <td>
-                                            <if condition="$list['status'] eq 0">
-                                                <a href="{:U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>1])}" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                            <if condition="$list['status'] eq 1">
+                                                <a href="{:U('User/setStatus',['id'=>$list['id'],'status'=>0])}" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <else/>
-                                                <a href="{:U('User/setStatus',['id'=>$userlist['id'],'tableName'=>'Admin','status'=>0])}" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a>
+                                                <a href="{:U('User/setStatus',['id'=>$list['id'],'status'=>1])}" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a>
                                             </if>
                                             <a href="{:U('User/edituser',['id'=>$userlist['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
                                             <a href="{:U('User/delete',['id'=>$list['id']])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>

@@ -52,4 +52,19 @@ class UserController extends Controller {
 		}
 	}
 
+	public function setStatus() {
+		$id 	= I('id');
+		$status = I('status');
+		$data 	= array(
+			'status' => $status,
+			'last_time'	=> date('Y-m-d H:i:s'),
+			);
+		$result = M('user')->where('id='.$id)->setField($data);
+		if ($result) {
+			$this->success('操作成功!');
+		} else {
+			$this->error('操作失败!');
+		}
+	}
+
 }
