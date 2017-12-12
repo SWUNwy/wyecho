@@ -26,11 +26,11 @@ class UserController extends Controller {
 
 	public function add() {
 		$data = array(
-			'uname'		=> I('uname'),
-			'pwd'		=> I('pwd'),
-			'status'	=> I('status'),
-			'role_id'	=> I('role_id'),
-			'add_time'	=> date('Y-m-d H:i:s'),
+			'uname'			=> I('uname'),
+			'pwd'			=> I('pwd'),
+			'status'		=> I('status'),
+			'role_id'		=> I('role_id'),
+			'create_time'	=> date('Y-m-d H:i:s'),
 			);
 		// p($data);
 		// die();
@@ -49,6 +49,30 @@ class UserController extends Controller {
 			$this->success('删除成功!');
 		} else {
 			$this->error('删除失败!');
+		}
+	}
+
+	public function edit() {
+		$id = I('id');
+		$list = M('user')->find($id);
+		$this->assign('list',$list);
+		$this->display('editUser');
+	}
+
+	public function save() {
+		$id = I('id');
+		$data = array(
+			'uname'		=> I('uname'),
+			'pwd'		=> I('pwd'),
+			'status'	=> I('status'),
+			'role_id'	=> I('role_id'),
+			'last_time'	=> date('Y-m-d H:i:s'),
+			);
+		$result = M('user')->where('id='.$id)->save($data);
+		if ($result) {
+			$this->success('操作成功!');
+		} else {
+			$this->error('操作失败!');
 		}
 	}
 

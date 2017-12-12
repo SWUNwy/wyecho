@@ -98,7 +98,7 @@
                                             <?php if($list['status'] == 1): ?><a href="<?php echo U('User/setStatus',['id'=>$list['id'],'status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <?php else: ?>
                                                 <a href="<?php echo U('User/setStatus',['id'=>$list['id'],'status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
-                                            <a href="<?php echo U('User/edituser',['id'=>$userlist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
+                                            <a href="<?php echo U('User/edit',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
                                             <a href="<?php echo U('User/delete',['id'=>$list['id']]);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
                                         </td>
                                     <?php else: ?>
