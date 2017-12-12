@@ -91,8 +91,8 @@
 
                             <div class="col-sm-10">
                                 <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="status" id="status" checked="checked"> <i></i> 启用</label>
-                                    <label><input type="radio" value="1" name="status" id="status"> <i></i>禁用</label>
+                                    <label><input type="radio" value="1" name="status" id="status" checked="checked"> <i></i> 启用</label>
+                                    <label><input type="radio" value="0" name="status" id="status"> <i></i>禁用</label>
                                 </div>
                             </div>
                         </div>

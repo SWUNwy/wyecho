@@ -85,3 +85,27 @@ header("Content-type:text/html;charset=utf-8");
 	    }
 	    return $path;
 	}
+
+
+	/**
+	 * 获取分类树(无限级分类)
+	 * @param $arr
+	 * @param int $pid 父级id
+	 * @param int $level 级别
+	 * @return array
+	 */
+	function getTree($arr,$pid=0,$level=0){
+	    static $list = array();
+	    foreach($arr as $value){
+	        if($value['pid'] == $pid){
+	            if($level == 0){
+	                $value['level'] = '';
+	            }else{
+	                $value['level'] = $level == 1 ? str_repeat('|&nbsp;---&nbsp;',$level) : '|'.str_repeat('&nbsp;---&nbsp;',$level);
+	            }
+	            $list[] = $value;
+	            getTree($arr,$value['id'],$level+1);
+	        }
+	    }
+	    return $list;
+	}	

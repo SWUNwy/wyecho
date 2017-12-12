@@ -32,13 +32,23 @@ class UserController extends Controller {
 			'role_id'	=> I('role_id'),
 			'add_time'	=> date('Y-m-d H:i:s'),
 			);
-		p($data);
-		die();
+		// p($data);
+		// die();
 		$result = M('user')->add($data);
 		if ($result) {
 			$this->success("添加成功!");
 		} else {
 			$this->error("添加失败!");
+		}
+	}
+
+	public function delete() {
+		$id = I('id');
+		$result = M('user')->delete($id);
+		if ($result) {
+			$this->success('删除成功!');
+		} else {
+			$this->error('删除失败!');
 		}
 	}
 
