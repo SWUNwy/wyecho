@@ -61,18 +61,18 @@
                         </div>
                         <div class="hr-line-dashed"></div>
 
-                        <!-- <div class="form-group"> -->
-                            <!-- <label class="col-sm-2 control-label">上传头像</label> -->
-                            <!-- <div class="col-sm-10"> -->
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">上传头像</label>
+                            <div class="col-sm-10">
                                 <!--dom结构部分-->
-                                <!-- <div id="uploader-demo"> -->
+                                <div id="uploader-demo">
                                     <!--用来存放item-->
-                                    <!-- <div id="fileList" class="uploader-list" style="width:100px;"></div> -->
-                                    <!-- <div id="filePicker"><i class="fa fa-upload"></i> 选择图片</div> -->
-                                <!-- </div> -->
-                            <!-- </div> -->
-                        <!-- </div> -->
-                        <!-- <div class="hr-line-dashed"></div> -->
+                                    <div id="fileList" class="uploader-list" style="width:100px;"></div>
+                                    <div id="filePicker"><i class="fa fa-upload"></i> 选择图片</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
 
                         <div class="form-group">
                             <label class="col-sm-2 control-label">密码</label>
@@ -128,8 +128,8 @@
         user_is_username : "<?php echo U('User/is_username');?>"
     };
 </script>
-<script src="/wyecho/public/Admin/js/http/user/adduser.js"></script>
-<script src="/wyecho/public/Admin/js/http/upload.js"></script> -->
+<script src="/wyecho/public/Admin/js/http/user/adduser.js"></script> -->
+<script src="/wyecho/public/Admin/js/http/upload.js"></script>
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->
