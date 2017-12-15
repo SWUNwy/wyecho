@@ -3,13 +3,12 @@
 namespace Admin\Controller;
 
 use Think\Controller;
-use Admin\Controller\BaseController;
 /**
  * Description of AuthController
  *
  * @author Administrator
  */
-class AuthController extends BaseController {
+class AuthController extends Controller {
     //put your code here
     public function index() {
         $this->display();
