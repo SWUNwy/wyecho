@@ -7,6 +7,12 @@ use Think\Controller;
 class BaseController extends Controller {
 
 	public function _initialize() {
-		$this->redriect('Login/index');
+		$uid = session('uid');
+
+		$auth = new \Think\Auth();
+		$result = $auth->check();
+		if (!$result) {
+			$this->error("Not Allow!");
+		}
 	}
 }
