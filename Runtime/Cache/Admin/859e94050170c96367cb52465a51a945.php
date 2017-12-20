@@ -61,7 +61,6 @@
                         </a>
                     </li>
 
-                    <?php if(in_array('1',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#graduation-cap">
                             <i class="fa fa-graduation-cap"></i>
@@ -69,26 +68,20 @@
                             <span class="fa arrow"></span>
                         </a>
 
-                        <?php if(in_array('2',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Member/addMember');?>">新增会员</a>
                             </li>
                         </ul>
-                        <?php } ?>
 
-                        <?php if(in_array('3',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Member/index');?>">会员列表</a>
                             </li>
                         </ul>
-                        <?php } ?>
 
                     </li>
-                    <?php } ?>
 
-                    <?php if(in_array('7',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#balance-scale">
                             <i class="fa fa-balance-scale"></i>
@@ -96,22 +89,16 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <?php if(in_array('8',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('News/addNews');?>">添加资讯</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('9',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('News/index');?>">资讯列表</a>
                             </li>
-                            <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
 
-                    <?php if(in_array('10',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#flag">
                             <i class="fa fa-flag" style="font-size: 16px;"></i>
@@ -119,34 +106,24 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <?php if(in_array('11',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Blog/index');?>">博文列表</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('12',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Blog/addBlog');?>">发布博文</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('13',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Blog/cateList');?>">分类管理</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('14',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Blog/recycle');?>">回收站</a>
                             </li>
-                            <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
 
-                    <?php if(in_array('15',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#suitcase">
                             <i class="fa fa-suitcase" style="font-size: 16px;"></i>
@@ -154,65 +131,16 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <?php if(in_array('16',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Doc/addDoc');?>">上传文档</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('17',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Doc/index');?>">文档列表</a>
                             </li>
-                            <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
 
-<!--                    <?php if(in_array('18',$auth)||$auth==''){ ?>
-                    <li>
-                        <a href="#university">
-                            <i class="fa fa-university" style="font-size: 14px;"></i>
-                            <span class="nav-label">经费管理</span>
-                            <span class="fa arrow"></span>
-                        </a>
-                        <ul class="nav nav-second-level">
-                            <?php if(in_array('19',$auth)||$auth==''){ ?>
-                            <li>
-                                <a class="J_menuItem" href="<?php echo U('Cost/addCost');?>">添加记录</a>
-                            </li>
-                            <li>
-                                <a class="J_menuItem" href="<?php echo U('Cost/costList');?>">查看经费</a>
-                            </li>
-                            <?php } ?>
-                        </ul>
-                    </li>
-                    <?php } ?>-->
-
-<!--                    <?php if(in_array('20',$auth)||$auth==''){ ?>
-                    <li>
-                        <a href="#gavel">
-                            <i class="fa fa-gavel" style="font-size: 16px;"></i>
-                            <span class="nav-label">电子提案</span>
-                            <span class="fa arrow"></span>
-                        </a>
-                        <ul class="nav nav-second-level">
-                            <?php if(in_array('21',$auth)||$auth==''){ ?>
-                            <li>
-                                <a class="J_menuItem" href="<?php echo U('Proposal/addProposal');?>">新增提案</a>
-                            </li>
-                            <?php } ?>
-
-                            <?php if(in_array('22',$auth)||$auth==''){ ?>
-                            <li>
-                                <a class="J_menuItem" href="<?php echo U('Proposal/proposalList');?>">查看提案</a>
-                            </li>
-                            <?php } ?>
-                        </ul>
-                    </li>
-                    <?php } ?>-->
-
-                    <?php if(in_array('23',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#user">
                             <i class="fa fa-user" style="font-size: 17px;"></i>
@@ -220,22 +148,16 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <?php if(in_array('24',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('User/addUser');?>">新增管理员</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('25',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href=<?php echo U('User/index');?>">管理员列表</a>
                             </li>
-                            <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
 
-                    <?php if(in_array('26',$auth)||$auth==''){ ?>
                     <li>
                         <a href="##unlock-alt">
                             <i class="fa fa-unlock-alt" style="font-size: 18px;"></i>
@@ -243,43 +165,33 @@
                             <span class="fa arrow"></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <?php if(in_array('27',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Role/index');?>">角色管理</a>
                             </li>
-                            <?php } ?>
 
-                            <?php if(in_array('28',$auth)||$auth==''){ ?>
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Auth/index');?>">权限列表</a>
                             </li>
-                            <?php } ?>
                         </ul>
                     </li>
-                    <?php } ?>
 
-                    <?php if(in_array('29',$auth)||$auth==''){ ?>
                     <li>
                         <a href="#cogs">
                             <i class="fa fa-cogs" style="font-size: 15px;"></i>
                             <span class="nav-label">系统管理</span>
                             <span class="fa arrow"></span>
                         </a>
-                        <?php if(in_array('30',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('System/index');?>">站点配置</a>
                             </li>
                         </ul>
-                        <?php } ?>
 
-                        <?php if(in_array('31',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
                             <li>
                                 <a class="J_menuItem" href="<?php echo U('Database/index');?>">备份数据库</a>
                             </li>
                         </ul>
-                        <?php } ?>
 
 <!--                         <?php if(in_array('32',$auth)||$auth==''){ ?>
                         <ul class="nav nav-second-level">
@@ -289,7 +201,6 @@
                         </ul>
                         <?php } ?> -->
                     </li>
-                    <?php } ?>
                 </ul>
             </div>
         </nav>
@@ -299,18 +210,9 @@
         <div id="page-wrapper" class="gray-bg dashbard-1">
             <div class="row border-bottom">
                 <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                    <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
+                    <div class="navbar-header">
+                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
                     </div>
-<!--                    <ul class="nav navbar-top-links navbar-right">
-                        <li class="hidden-xs">
-                            <a href="index_v1.html" class="J_menuItem" data-index="0"><i class="fa fa-cart-arrow-down"></i> 主题</a>
-                        </li>
-                        <li class="dropdown hidden-xs">
-                            <a class="right-sidebar-toggle" aria-expanded="false">
-                                <i class="fa fa-tasks"></i> 主题
-                            </a>
-                        </li>
-                    </ul>-->
                 </nav>
             </div>
             <div class="row content-tabs">
