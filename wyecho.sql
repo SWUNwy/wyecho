@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-12-14 22:53:51
+Date: 2017-12-21 15:27:54
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -23,7 +23,9 @@ CREATE TABLE `yr_auth_group` (
   `id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
   `title` char(100) NOT NULL DEFAULT '',
   `status` tinyint(1) NOT NULL DEFAULT '1',
-  `rules` char(80) NOT NULL DEFAULT '',
+  `rules` char(255) NOT NULL DEFAULT '',
+  `add_time` datetime DEFAULT NULL,
+  `last_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -58,6 +60,9 @@ CREATE TABLE `yr_auth_rule` (
   `type` tinyint(1) NOT NULL DEFAULT '1',
   `status` tinyint(1) NOT NULL DEFAULT '1',
   `condition` char(100) NOT NULL DEFAULT '',
+  `pid` tinyint(3) DEFAULT NULL,
+  `add_time` datetime DEFAULT NULL,
+  `last_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -266,7 +271,7 @@ CREATE TABLE `yr_user` (
 -- ----------------------------
 -- Records of yr_user
 -- ----------------------------
-INSERT INTO `yr_user` VALUES ('1', 'yrui', '4ca3c2def8fdf3a054fc405e0f3b3f78', '0', '0', '0.0.0.0', '2017-12-10 00:00:00', '2017-12-12 22:42:38');
+INSERT INTO `yr_user` VALUES ('1', 'yrui', '4ca3c2def8fdf3a054fc405e0f3b3f78', '1', '0', '0.0.0.0', '2017-12-10 00:00:00', '2017-12-21 11:24:51');
 
 -- ----------------------------
 -- Table structure for `yr_visit`

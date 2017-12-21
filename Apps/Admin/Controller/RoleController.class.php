@@ -11,7 +11,7 @@ use Think\Controller;
 class RoleController extends Controller {
     //put your code here
     public function index() {
-        $role = M('role');
+        $role = M('auth_group');
         import('Org.Util.Page');
 
         $count = $role->count();

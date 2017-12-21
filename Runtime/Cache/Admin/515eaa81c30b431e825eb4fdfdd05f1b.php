@@ -52,7 +52,7 @@
                 <div class="ibox-content">
                     <div class="row">
                         <div class="col-sm-5 m-b-xs">
-                            <a href="<?php echo U('role/addRole');?>">
+                            <a href="<?php echo U('Role/addRole');?>">
                                 <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-plus-square"></i>&nbsp;&nbsp;添加角色</button>
                             </a>
                         </div>
@@ -81,27 +81,27 @@
                                     <!--<td>
                                         <input type="checkbox" class="i-checks" name="id[]" value="<?php echo ($rolelist["id"]); ?>">
                                     </td>-->
-                                    <td><?php echo ($rolelist["id"]); ?></td>
-                                    <td><?php echo ($rolelist["name"]); ?></td>
+                                    <td><?php echo ($list["id"]); ?></td>
+                                    <td><?php echo ($list["name"]); ?></td>
                                     <td>
-                                        <?php if(($rolelist['status'] == 0)): ?><span style="color: green">启用</span><?php endif; ?>
-                                        <?php if(($rolelist['status'] == 1)): ?><span style="color: red">禁用</span><?php endif; ?>
+                                        <?php if(($ist['status'] == 0)): ?><span style="color: green">启用</span><?php endif; ?>
+                                        <?php if(($list['status'] == 1)): ?><span style="color: red">禁用</span><?php endif; ?>
                                     </td>
                                     <td>
-                                        <?php echo (date("Y-m-d H:i:s",$rolelist["create_time"])); ?>
+                                        <?php echo ($list["create_time"]); ?>
                                     </td>
                                     <td>
                                         <?php if(($rolelist['update_time'] == '')): ?>暂无记录
                                             <?php else: ?>
-                                            <?php echo (date("Y-m-d H:i:s",$rolelist["create_time"])); endif; ?>
+                                            <?php echo (date("Y-m-d H:i:s",$list["create_time"])); endif; ?>
                                     </td>
-                                    <?php if(($rolelist['id'] != 1)): ?><td>
-                                            <?php if($rolelist['status'] == 0): ?><a href="<?php echo U('Role/setStatus',['id'=>$rolelist['id'],'tableName'=>'Role','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                    <?php if(($list['id'] != 1)): ?><td>
+                                            <?php if($list['status'] == 1): ?><a href="<?php echo U('Role/setStatus',['id'=>$list['id'],'tableName'=>'Role','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                                 <?php else: ?>
-                                                <a href="<?php echo U('Role/setStatus',['id'=>$rolelist['id'],'tableName'=>'Role','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
+                                                <a href="<?php echo U('Role/setStatus',['id'=>$list['id'],'tableName'=>'Role','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
 
-                                            <a href="<?php echo U('role/editrole',['id'=>$rolelist['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">授权</button></a>
-                                            <a href="<?php echo U('role/delete',['id'=>$rolelist['id'],'tableName'=>'Role']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
+                                            <a href="<?php echo U('Role/editRole',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">授权</button></a>
+                                            <a href="<?php echo U('Role/delete',['id'=>$list['id']]);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
                                         </td>
                                     <?php else: ?>
                                         <td>

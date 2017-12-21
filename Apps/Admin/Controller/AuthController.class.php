@@ -11,6 +11,14 @@ use Think\Controller;
 class AuthController extends Controller {
     //put your code here
     public function index() {
+        $rule = M('auth_rule');
+        import('Org.Util.Page');
+        $count = $rule->count();
+        $page = new \Think\Page($count,10);
+        $show = $page->show();
+        $list = $rule->order('last_time desc')->limit($Page->firstRow.','.$Page->listRows)->select();
+        $this->assign('list',$list);
+        $this->assign('page',$page);
         $this->display();
     }
     
@@ -18,8 +26,7 @@ class AuthController extends Controller {
         $this->display();
     }
 
-    public function getInit() {
-    	$token = $this->token;
-    	echo $token;
+    public function editAuth() {
+        $this->display();
     }
 }
