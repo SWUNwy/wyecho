@@ -39,14 +39,12 @@
                             </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
-                               <span class="block m-t-xs"><strong class="font-bold"><?php echo ($username); ?></strong></span>
-                                <span class="text-muted text-xs block"><?php echo ($rolename); ?><b class="caret"></b></span>
+                                <span class="block m-t-xs">欢迎您&nbsp;&nbsp;<strong class="font-bold"><?php echo ($uname); ?></strong></span>
                                 </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <?php if(($user_id != 1)): ?><li><a class="J_menuItem" href="<?php echo U('User/edituser',['id'=>$user_id]);?>">修改资料</a>
+                                <li><a class="J_menuItem" href="<?php echo U('User/edituser',['id'=>$uid]);?>">修改资料</a>
                                 </li>
-                                <li class="divider"></li><?php endif; ?>
                                 <li><a href="<?php echo U('Login/logout');?>" onclick="logout();">安全退出</a>
                                 </li>
                             </ul>

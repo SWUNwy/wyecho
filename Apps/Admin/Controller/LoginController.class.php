@@ -31,7 +31,9 @@ class LoginController extends Controller {
         if (!$user || $user['pwd'] != I('pwd', '', 'MD5')) {
             $this->error('用户名或密码错误');
         }
-
+        if ($user['status'] == 0 ) {
+            $this->error("用户被锁定，登录失败!",U('Login/index'));
+        }
         $data = array(
             'last_time' => date('Y-m-d H:i:s'),
             'last_ip' => get_client_ip()
@@ -39,8 +41,8 @@ class LoginController extends Controller {
         $db = M('user')->where('id='.$user['id'])->save($data);
 
         //写入session
-        session('admin_id',$user['id']);
-        session('admin_username',$res['username']);
+        session('uid',$user['id']);
+        session('uname',$user['uname']);
         $this->success("登录成功!",U('Index/index'));
 
     }
