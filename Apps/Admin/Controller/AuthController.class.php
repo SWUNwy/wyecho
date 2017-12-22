@@ -27,22 +27,41 @@ class AuthController extends Controller {
     }
 
     public function editAuth() {
+        $id = I('id');
+        $list = M('auth_rule')->find($id);
+        $this->assign('list',$list);
         $this->display();
     }
 
     public function save() {
         $id = I('id');
-        $data = array(
-            'name'      => I('name'),
-            'title'     => I('name'),
-            'status'    => I('status'),
-            'add_time'  => date('Y-m-d H:i:s'),
-        );
-        $result = M('auth_rule')->add($data);
+        $result = M('auth_rule')->find($id);
         if ($result) {
-            $this->success("添加成功",U('Auth/index'));
+            $editdata = array(
+                'name'      => I('name'),
+                'title'     => I('name'),
+                'status'    => I('status'),
+                'last_time'  => date('Y-m-d H:i:s'),
+            );
+            $editData = M('auth_rule')->where('id='.$id)->save($editdata);
+            if ($editData) {
+                $this->success("编辑成功!",U('Auth/index'));
+            } else {
+                $this->error("编辑失败!");
+            }
         } else {
-            $this->error("添加失败!");
+            $data = array(
+                'name'      => I('name'),
+                'title'     => I('name'),
+                'status'    => I('status'),
+                'add_time'  => date('Y-m-d H:i:s'),
+            );
+            $addData = M('auth_rule')->add($data);
+            if ($result) {
+                $this->success("添加成功",U('Auth/index'));
+            } else {
+                $this->error("添加失败!");
+            }
         }
     }
 
