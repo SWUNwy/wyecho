@@ -29,4 +29,22 @@ class AuthController extends Controller {
     public function editAuth() {
         $this->display();
     }
+
+    public function save() {
+        $id = I('id');
+        $data = array(
+            'name'      => I('name'),
+            'title'     => I('name'),
+            'status'    => I('status'),
+            'add_time'  => date('Y-m-d H:i:s'),
+        );
+        $result = M('auth_rule')->add($data);
+        if ($result) {
+            $this->success("添加成功",U('Auth/index'));
+        } else {
+            $this->error("添加失败!");
+        }
+    }
+
+    
 }

@@ -60,12 +60,12 @@
                                     </td>
                                     <td>
                                         <if condition="$list['status'] eq 1">
-                                            <a href="{:U('Auth/setStatus',['id'=>$list['id'],'tableName'=>'Auth','status'=>0])}" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                            <a href="{:U('Auth/setStatus',['id'=>$list['id'],'status'=>0])}" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                             <else/>
-                                            <a href="{:U('Auth/setStatus',['id'=>$list['id'],'tableName'=>'Auth','status'=>1])}" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a>
+                                            <a href="{:U('Auth/setStatus',['id'=>$list['id'],'status'=>1])}" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a>
                                         </if>
                                         <a href="{:U('Auth/editAuth',['id'=>$list['id']])}"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="{:U('Auth/delete',['id'=>$list['id'],'tableName'=>'Auth'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="{:U('Auth/delete',['id'=>$list['id'],'tableName'=>'Auth'])}" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
                                 </tr>
                             </volist>
                             </tbody>

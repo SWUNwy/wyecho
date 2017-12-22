@@ -49,6 +49,7 @@
                     <div class="ibox-title">
                         <h5>添加权限</h5>
                     </div>
+                    <form method="post" action="<?php echo U('Auth/save');?>">
                     <div class="ibox-content">
                         <div class="form-horizontal">
                             <div class="form-group">
@@ -66,7 +67,7 @@
                                 <label class="col-sm-2 control-label">权限名称</label>
 
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="name" placeholder="请填写权限名称" id="name">
+                                    <input type="text" class="form-control" name="title" placeholder="请填写权限名称" id="title">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -75,7 +76,7 @@
                                 <label class="col-sm-2 control-label">控制器方法</label>
 
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="path" placeholder="请填写控制器方法，例如Member/memberList" id="path">
+                                    <input type="text" class="form-control" name="name" placeholder="请填写控制器方法，例如Admin/Index/index" id="name">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -87,41 +88,26 @@
 
                                 <div class="col-sm-10">
                                     <div class="radio i-checks">
-                                        <label><input type="radio" value="0" name="status" checked="checked"> <i></i> 启用</label>
-                                        <label><input type="radio" value="1" name="status"> <i></i>禁用</label>
+                                        <label><input type="radio" value="1" name="status" checked="checked"> <i></i> 启用</label>
+                                        <label><input type="radio" value="0" name="status"> <i></i>禁用</label>
                                     </div>
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
 
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">排序</label>
-
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="sort" value="0" placeholder="默认为0" id="sort">
-                                </div>
-                            </div>
-                            <div class="hr-line-dashed"></div>
-
-                            <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary" id="save">保存内容</button>
+                                    <button class="btn btn-primary">保存内容</button>
                                     <button class="btn btn-white" type="button" onclick="history.go(-1);">返回</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <script>
-        //定义全局变量
-        var GV = {
-            auth_addauth : "<?php echo U('auth/addauth');?>"
-        };
-    </script>
-    <script src="/wyecho/public/Admin/js/http/auth/addauth.js"></script>
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->
