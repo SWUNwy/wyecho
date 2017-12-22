@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50714
 File Encoding         : 65001
 
-Date: 2017-12-21 15:27:54
+Date: 2017-12-22 15:56:34
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -65,11 +65,12 @@ CREATE TABLE `yr_auth_rule` (
   `last_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of yr_auth_rule
 -- ----------------------------
+INSERT INTO `yr_auth_rule` VALUES ('1', 'Admin/Test/test', 'Admin/Test/test', '1', '1', '', null, '2017-12-22 15:49:15', '2017-12-22 15:51:27');
 
 -- ----------------------------
 -- Table structure for `yr_blog`
@@ -271,7 +272,7 @@ CREATE TABLE `yr_user` (
 -- ----------------------------
 -- Records of yr_user
 -- ----------------------------
-INSERT INTO `yr_user` VALUES ('1', 'yrui', '4ca3c2def8fdf3a054fc405e0f3b3f78', '1', '0', '0.0.0.0', '2017-12-10 00:00:00', '2017-12-21 11:24:51');
+INSERT INTO `yr_user` VALUES ('1', 'yrui', '4ca3c2def8fdf3a054fc405e0f3b3f78', '1', '0', '0.0.0.0', '2017-12-10 00:00:00', '2017-12-22 15:07:10');
 
 -- ----------------------------
 -- Table structure for `yr_visit`
