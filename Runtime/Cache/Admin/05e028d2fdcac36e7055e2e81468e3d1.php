@@ -100,11 +100,11 @@
                                         <?php echo ($list["last_time"]); ?>
                                     </td>
                                     <td>
-                                        <?php if($list['status'] == 1): ?><a href="<?php echo U('Auth/setStatus',['id'=>$list['id'],'tableName'=>'Auth','status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
+                                        <?php if($list['status'] == 1): ?><a href="<?php echo U('Auth/setStatus',['id'=>$list['id'],'status'=>0]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-danger btn-xs">禁用</button></a>
                                             <?php else: ?>
-                                            <a href="<?php echo U('Auth/setStatus',['id'=>$list['id'],'tableName'=>'Auth','status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
+                                            <a href="<?php echo U('Auth/setStatus',['id'=>$list['id'],'status'=>1]);?>" class="ajax-status"><button type="button" class="btn btn-outline btn-primary btn-xs">启用</button></a><?php endif; ?>
                                         <a href="<?php echo U('Auth/editAuth',['id'=>$list['id']]);?>"><button type="button" class="btn btn-outline btn-default btn-xs">编辑</button></a>
-                                        <a href="<?php echo U('Auth/delete',['id'=>$list['id'],'tableName'=>'Auth']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>                                    </td>
+                                        <a href="<?php echo U('Auth/delete',['id'=>$list['id'],'tableName'=>'Auth']);?>" class="ajax-delete"><button type="button" class="btn btn-outline btn-warning btn-xs">删除</button></a>
                                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                             </tbody>
                         </table>

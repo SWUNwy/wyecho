@@ -46,5 +46,17 @@ class AuthController extends Controller {
         }
     }
 
-    
+    public function setStatus() {
+        $id = I('id');
+        $data = array(
+            'status' => I('status'),
+            'last_time' => date('Y-m-d H:i:s'),
+        );
+        $result = M('auth_rule')->where('id='.$id)->setField($data);
+        if ($result) {
+            $this->success("操作成功!");
+        } else {
+            $this->error("操作失败!");
+        }
+    }
 }
