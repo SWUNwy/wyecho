@@ -23,7 +23,9 @@ class UserController extends Controller {
 
         $this->display();
 	}
-
+	/**
+	 * 添加管理员
+	 */
 	public function add() {
 		$data = array(
 			'uname'			=> I('uname'),
