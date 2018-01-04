@@ -7,7 +7,7 @@
                 <div class="ibox-title">
                     <h5>编辑角色</h5>
                 </div>
-                <form method="post" action="{:U('Role/update')}">
+                <form method="post" action="{:U('Role/save')}">
                 <input type="hidden" name="id" id="id" value="{$list.id}">
                 <div class="ibox-content">
                     <div class="form-horizontal">
@@ -15,7 +15,7 @@
                             <label class="col-sm-2 control-label">角色名称</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="请填写角色名称" value="{$list.name}">
+                                <input type="text" class="form-control" name="title" id="title" placeholder="请填写角色名称" value="{$list.title}">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -41,10 +41,10 @@
                             </label>
 
                             <div class="col-sm-10">
-                                <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="status" checked="checked"> <i></i> 启用</label>
-                                    <label><input type="radio" value="1" name="status"> <i></i>禁用</label>
-                                </div>
+                                    <div class="radio i-checks">
+                                        <label><input type="radio" value="1" name="status" <if condition="($role['status'] eq 1)"> checked="checked" </if> > <i></i> 启用</label>
+                                        <label><input type="radio" value="0" name="status" <if condition="($role['status'] eq 0)"> checked="checked" </if> > <i></i>禁用</label>
+                                    </div>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>

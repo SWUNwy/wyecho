@@ -37,9 +37,7 @@ class RoleController extends Controller {
         $this->display();
     }
     
-    public function create() {
-        $data = array();
+    public function save() {
+        
     }
-
-    public function update() {}
 }

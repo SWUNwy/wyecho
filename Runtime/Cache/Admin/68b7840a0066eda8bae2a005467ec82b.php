@@ -49,13 +49,14 @@
                 <div class="ibox-title">
                     <h5>添加角色</h5>
                 </div>
+                <form method="post" action="<?php echo U('Role/save');?>">
                 <div class="ibox-content">
                     <div class="form-horizontal">
                         <div class="form-group">
                             <label class="col-sm-2 control-label">角色名称</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="name" placeholder="请填写角色名称" id="name">
+                                <input type="text" class="form-control" name="title" id="title" placeholder="请填写角色名称">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>
@@ -80,8 +81,8 @@
 
                             <div class="col-sm-10">
                                 <div class="radio i-checks">
-                                    <label><input type="radio" value="0" name="status" checked="checked"> <i></i> 启用</label>
-                                    <label><input type="radio" value="1" name="status"> <i></i>禁用</label>
+                                    <label><input type="radio" value="1" name="status" checked="checked"> <i></i> 启用</label>
+                                    <label><input type="radio" value="0" name="status"> <i></i>禁用</label>
                                 </div>
                             </div>
                         </div>
@@ -95,6 +96,7 @@
                         </div>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
