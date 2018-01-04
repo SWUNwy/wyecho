@@ -31,10 +31,15 @@ class RoleController extends Controller {
     }
     
     public function editRole() {
+        $id = I('id');
+        $list = M()->find($id);
+        $this->assign('list',$list);
         $this->display();
     }
     
     public function create() {
-        $data = array();        
+        $data = array();
     }
+
+    public function update() {}
 }

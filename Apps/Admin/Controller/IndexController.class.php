@@ -16,6 +16,7 @@ class IndexController extends BaseController {
         //mysql版本信息
         $mysql_version = M()->query('SELECT VERSION() AS ver');
         $config = [
+            'date'=> date('Y-m-d H:i:s'),
             'url' => $_SERVER['HTTP_HOST'],
             'document' => $_SERVER['DOCUMENT_ROOT'],
             'server_os' => PHP_OS,
