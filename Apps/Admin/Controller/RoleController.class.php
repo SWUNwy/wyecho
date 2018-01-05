@@ -38,6 +38,13 @@ class RoleController extends Controller {
     }
     
     public function save() {
-        
+        $id = I('id');
+        $newData = array(
+            'title' => I('title'),
+            'status'=> I('status'),
+            'rules' => I('rules'),
+            'add_time'=> date('Y-m-d H:i:s')
+        );
+
     }
 }
