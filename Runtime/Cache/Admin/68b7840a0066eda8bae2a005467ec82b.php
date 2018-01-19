@@ -101,13 +101,13 @@
         </div>
     </div>
 </div>
-<script>
+<!-- <script>
     //定义全局变量
     var GV = {
         role_addrole : "<?php echo U('Role/addRole');?>"
     };
 </script>
-<script src="/wyecho/public/Admin/js/http/role/addrole.js"></script>
+<script src="/wyecho/public/Admin/js/http/role/addrole.js"></script> -->
 
 </body>
 <!-- Mirrored from www.zi-han.net/theme/hplus/form_editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 03 Mar 2016 12:29:44 GMT -->

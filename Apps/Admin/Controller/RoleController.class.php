@@ -45,6 +45,6 @@ class RoleController extends Controller {
             'rules' => I('rules'),
             'add_time'=> date('Y-m-d H:i:s')
         );
-
+        var_dump($newData);
     }
 }
