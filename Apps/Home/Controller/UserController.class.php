@@ -12,12 +12,8 @@ namespace Home\Controller;
 
 use Think\Controller;
 /**
- * IndexController
- * 首页模块
+ * UserController
+ * 用户管理模块
  * @author wyecho <[@sina.com]>
  */
-class IndexController extends Controller {
-    public function index(){
-        $this->show();
-    }
-}
+class UserController extends Controller {}

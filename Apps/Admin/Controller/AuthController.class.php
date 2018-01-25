@@ -14,7 +14,7 @@ use Think\Controller;
 /**
  * Description of AuthController
  *
- * @author Administrator
+ * @author wyecho <[@sina.com]>
  */
 class AuthController extends Controller {
     //put your code here
