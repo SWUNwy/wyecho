@@ -8,11 +8,11 @@
 // +----------------------------------------------------------------------
 // | Author: wyecho <@sina.com>
 // +----------------------------------------------------------------------
-namespace Home\Model;
+namespace Admin\Model;
 
 use Think\Model;
 /**
- * BlogModel
- * 博客模型
+ * UserModel
+ * 后台用户管理模型
  */
-class BlogModel extends Model {}
+class UserModel extends Model {}
