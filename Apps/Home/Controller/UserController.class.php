@@ -16,4 +16,10 @@ use Think\Controller;
  * 用户管理模块
  * @author wyecho <[@sina.com]>
  */
-class UserController extends Controller {}
+class UserController extends Controller {
+    
+    public function index() {
+        $this->display();
+    }
+    
+}
