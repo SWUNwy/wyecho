@@ -15,4 +15,10 @@ use Think\Controller;
  * 用户注册模块
  * @author wyecho <[@sina.com]>
  */
-class RegController extends Controller {}
+class RegController extends Controller {
+    
+    public function index() {
+        $this->display();
+    }
+    
+}
