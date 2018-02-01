@@ -17,5 +17,8 @@ use Think\Controller;
  * @author Administrator
  */
 class BlogController extends Controller {
-    //put your code here
+    
+    public function index() {
+        $this->display();
+    }
 }
