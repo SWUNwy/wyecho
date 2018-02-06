@@ -25,4 +25,8 @@ class UserController extends Controller {
     public function set() {
         $this->display();
     }
+    
+    public function message() {
+        $this->display();
+    }
 }
