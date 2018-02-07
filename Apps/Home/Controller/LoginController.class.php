@@ -25,4 +25,8 @@ class LoginController extends Controller {
     public function login() {
     	return ture;
     }
+
+    public function loginout() {
+    	return ture;
+    }
 }
