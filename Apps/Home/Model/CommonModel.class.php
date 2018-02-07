@@ -19,4 +19,7 @@ use Think\Model;
  */
 class CommonModel extends Model {
     //put your code here
+    public function save() {
+    	return ture;
+    }
 }

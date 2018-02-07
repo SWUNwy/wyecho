@@ -21,4 +21,7 @@ class RegController extends Controller {
         $this->display();
     }
     
+    public function register() {
+    	return ture;
+    }
 }
