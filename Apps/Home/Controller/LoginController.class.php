@@ -21,4 +21,8 @@ class LoginController extends Controller {
     public function index() {
         $this->display();
     }
+
+    public function login() {
+    	return ture;
+    }
 }
