@@ -19,4 +19,7 @@ use Think\Model;
  */
 class UserModel extends Model {
     //put your code here
+    public function add() {
+    	return ture;
+    }
 }

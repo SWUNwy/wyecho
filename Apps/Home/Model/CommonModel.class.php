@@ -22,4 +22,8 @@ class CommonModel extends Model {
     public function save() {
     	return ture;
     }
+
+    public function delete() {
+    	return ture;
+    }
 }
