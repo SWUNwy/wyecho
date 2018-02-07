@@ -5,6 +5,7 @@
         <group>
             <file>file:/D:/wamp64/www/wyecho/Apps/Home/View/User/message.html</file>
             <file>file:/D:/wamp64/www/wyecho/Apps/Home/View/User/set.html</file>
+            <file>file:/D:/wamp64/www/wyecho/Apps/Home/Controller/UserController.class.php</file>
             <file>file:/D:/wamp64/www/wyecho/Apps/Home/View/Blog/index.html</file>
             <file>file:/D:/wamp64/www/wyecho/Apps/Home/Controller/BlogController.class.php</file>
         </group>
