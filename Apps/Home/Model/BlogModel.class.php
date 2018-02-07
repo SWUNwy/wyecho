@@ -15,4 +15,9 @@ use Think\Model;
  * BlogModel
  * 博客模型
  */
-class BlogModel extends Model {}
+class BlogModel extends Model {
+
+	public function index() {
+		return ture;
+	}
+}
