@@ -164,7 +164,7 @@
                             </p>
                             封面<hr>
                             <p>
-                                <img src="../../res/images/fly.jpg" alt="Fly社区">
+                                <img src="/wyecho/Public/Home/images/fly.jpg" alt="Fly社区">
                             </p>
                         </div>
                     </div>
@@ -337,7 +337,7 @@
                     </div>
 
                     <div class="fly-panel" style="padding: 20px 0; text-align: center;">
-                        <img src="../../res/images/weixin.jpg" style="max-width: 100%;" alt="layui">
+                        <img src="/wyecho/Public/Home/images/weixin.jpg" style="max-width: 100%;" alt="layui">
                         <p style="position: relative; color: #666;">微信扫码关注 layui 公众号</p>
                     </div>
 
@@ -360,13 +360,13 @@ layui.cache.page = 'jie';
 layui.cache.user = {
     username: '游客'
     , uid: -1
-    , avatar: '../../res/images/avatar/00.jpg'
+    , avatar: '/wyecho/Public/Home/images/avatar/00.jpg'
     , experience: 83
     , sex: '男'
 };
 layui.config({
     version: "3.0.0"
-    , base: '../../res/mods/'
+    , base: '/wyecho/Public/Home/mods/'
 }).extend({
     fly: 'index'
 }).use(['fly', 'face'], function () {
