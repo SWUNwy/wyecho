@@ -1,0 +1,42 @@
+[ 2018-02-13T00:01:55+08:00 ] ::1 /wyecho/Public/Home/res/css/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Public
+
+[ 2018-02-13T00:01:55+08:00 ] ::1 /wyecho/index.php/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Res
+
+[ 2018-02-13T00:02:17+08:00 ] ::1 /wyecho/index.php/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Res
+
+[ 2018-02-13T00:02:24+08:00 ] ::1 /wyecho/index.php/res/images/fly.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Res
+
+[ 2018-02-13T00:02:24+08:00 ] ::1 /wyecho/index.php/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Res
+
+[ 2018-02-13T00:02:24+08:00 ] ::1 /wyecho/index.php/res/images/weixin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Res
+
+[ 2018-02-13T00:04:42+08:00 ] ::1 /wyecho/index.php/res/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Res
+
