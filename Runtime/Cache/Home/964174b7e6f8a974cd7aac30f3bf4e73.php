@@ -6,25 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="keywords" content="fly,layui,前端社区">
         <meta name="description" content="Fly社区是模块化前端UI框架Layui的官网社区，致力于为web开发提供强劲动力">
-        <link rel="stylesheet" href="../../res/layui/css/layui.css">
-        <link rel="stylesheet" href="../../res/css/global.css">
+        <link rel="stylesheet" href="/wyecho/Public/Home/layui/css/layui.css">
+        <link rel="stylesheet" href="/wyecho/Public/Home/css/global.css">
     </head>
     <body>
 
         <div class="fly-header layui-bg-black">
             <div class="layui-container">
                 <a class="fly-logo" href="/">
-                    <img src="../../res/images/logo.png" alt="layui">
+                    <img src="/wyecho/Public/Home/images/logo.png" alt="layui">
                 </a>
                 <ul class="layui-nav fly-nav layui-hide-xs">
                     <li class="layui-nav-item layui-this">
-                        <a href="/"><i class="iconfont icon-jiaoliu"></i>交流</a>
+                        <a href="/"><i class="iconfont icon-iconmingxinganli"></i>WebSocket-待开发</a>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="../case/case.html"><i class="iconfont icon-iconmingxinganli"></i>案例</a>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="http://www.layui.com/" target="_blank"><i class="iconfont icon-ui"></i>框架</a>
+                    <li class="layui-nav-item layui-this">
+                        <a href="/"><i class="iconfont icon-iconmingxinganli"></i>WebSocket-待开发</a>
                     </li>
                 </ul>
 
@@ -113,8 +110,8 @@
                                     </div>
                                     <div class="layui-inline">
                                         <div class="layui-input-inline">
-                                            <input type="radio" name="sex" value="0" checked title="男">
-                                            <input type="radio" name="sex" value="1" title="女">
+                                            <input type="radio" name="sex" value="1" checked title="男">
+                                            <input type="radio" name="sex" value="0" title="女">
                                         </div>
                                     </div>
                                 </div>
@@ -202,16 +199,16 @@
         </div>
     </div>
 
-    <div class="fly-footer">
-        <p><a href="http://fly.layui.com/" target="_blank">Fly社区</a> 2017 &copy; <a href="http://www.layui.com/" target="_blank">layui.com 出品</a></p>
-        <p>
-            <a href="http://fly.layui.com/jie/3147/" target="_blank">付费计划</a>
-            <a href="http://www.layui.com/template/fly/" target="_blank">获取Fly社区模版</a>
-            <a href="http://fly.layui.com/jie/2461/" target="_blank">微信公众号</a>
-        </p>
-    </div>
+            <div class="fly-footer">
+            <p><a href="http://fly.layui.com/" target="_blank">Fly社区</a> 2017 &copy; <a href="http://www.layui.com/" target="_blank">layui.com 出品</a></p>
+            <p>
+                <a href="http://fly.layui.com/jie/3147/" target="_blank">付费计划</a>
+                <a href="http://www.layui.com/template/fly/" target="_blank">获取Fly社区模版</a>
+                <a href="http://fly.layui.com/jie/2461/" target="_blank">微信公众号</a>
+            </p>
+        </div>
 
-    <script src="../../res/layui/layui.js"></script>
+    <script src="__PIBLIC__/Home/layui/layui.js"></script>
     <script>
                         layui.cache.page = 'user';
                         layui.cache.user = {

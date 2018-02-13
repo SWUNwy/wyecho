@@ -18,13 +18,10 @@
                 </a>
                 <ul class="layui-nav fly-nav layui-hide-xs">
                     <li class="layui-nav-item layui-this">
-                        <a href="/"><i class="iconfont icon-jiaoliu"></i>交流</a>
+                        <a href="/"><i class="iconfont icon-iconmingxinganli"></i>WebSocket-待开发</a>
                     </li>
-                    <li class="layui-nav-item">
-                        <a href="../case/case.html"><i class="iconfont icon-iconmingxinganli"></i>案例</a>
-                    </li>
-                    <li class="layui-nav-item">
-                        <a href="http://www.layui.com/" target="_blank"><i class="iconfont icon-ui"></i>框架</a>
+                    <li class="layui-nav-item layui-this">
+                        <a href="/"><i class="iconfont icon-iconmingxinganli"></i>WebSocket-待开发</a>
                     </li>
                 </ul>
 
@@ -136,7 +133,7 @@
             </div>
         </div>
 
-        <div class="fly-footer">
+                <div class="fly-footer">
             <p><a href="http://fly.layui.com/" target="_blank">Fly社区</a> 2017 &copy; <a href="http://www.layui.com/" target="_blank">layui.com 出品</a></p>
             <p>
                 <a href="http://fly.layui.com/jie/3147/" target="_blank">付费计划</a>
@@ -145,7 +142,7 @@
             </p>
         </div>
 
-        <script src="../../res/layui/layui.js"></script>
+        <script src="__PIBLIC__/Home/layui/layui.js"></script>
         <script>
             layui.cache.page = 'user';
             layui.cache.user = {
