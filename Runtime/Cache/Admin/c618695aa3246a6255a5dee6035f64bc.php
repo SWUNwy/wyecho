@@ -97,7 +97,7 @@
                             <label class="col-sm-2 control-label">个人简介</label>
 
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" name="introduct" value="" placeholder="请填写个人简介" id="introduct">
+                                <input type="text" class="form-control" name="introduction" value="" placeholder="请填写个人简介" id="introduction">
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>

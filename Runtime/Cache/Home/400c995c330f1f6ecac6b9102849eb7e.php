@@ -1,6 +1,6 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-    <head>
+        <head>
         <meta charset="utf-8">
         <title>WyEcho</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -79,8 +79,8 @@
                     <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><span class="fly-mid"></span></li> 
 
                     <!-- 用户登入后显示 -->
-                    <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="user/index.html">我发表的贴</a></li> 
-                    <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="user/index.html#collection">我收藏的贴</a></li> 
+                    <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="<?php echo U('User/index');?>">我发表的贴</a></li> 
+                    <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><a href="<?php echo U('User/index');?>">我收藏的贴</a></li> 
                 </ul> 
 
                 <div class="fly-column-right layui-hide-xs"> 

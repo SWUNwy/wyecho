@@ -43,7 +43,7 @@
                                 </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a class="J_menuItem" href="<?php echo U('User/edituser',['id'=>$uid]);?>">修改资料</a>
+                                <li><a class="J_menuItem" href="<?php echo U('User/edit',['id'=>$uid]);?>">修改资料</a>
                                 </li>
                                 <li><a href="<?php echo U('Login/logout');?>" onclick="logout();">安全退出</a>
                                 </li>
