@@ -111,7 +111,7 @@
                                     <a href="jie/detail.html">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
-                                    <a href="user/home.html" link>
+                                    <a href="<?php echo U('User/index');?>" link>
                                         <cite>贤心</cite>
                                         <i class="iconfont icon-renzheng" title="认证信息：XXX"></i>
                                         <i class="layui-badge fly-badge-vip">VIP3</i>
