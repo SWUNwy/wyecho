@@ -132,7 +132,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -163,7 +163,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -194,7 +194,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -246,7 +246,7 @@
 
                         <ul class="fly-list">          
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -274,7 +274,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -300,7 +300,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -328,7 +328,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -356,7 +356,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -384,7 +384,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -412,7 +412,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -440,7 +440,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -468,7 +468,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -496,7 +496,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -524,7 +524,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -552,7 +552,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="user/home.html" class="fly-avatar">
+                                <a href="<?php echo U('User/index');?>" class="fly-avatar">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
                                 </a>
                                 <h2>
@@ -580,10 +580,9 @@
                                 </div>
                             </li>
                         </ul>
+                        
                         <div style="text-align: center">
-                            <div class="laypage-main">
-                                <a href="jie/index.html" class="laypage-next">更多求解</a>
-                            </div>
+                            <div class="laypage-main"><span class="laypage-curr">1</span><a href="/jie/page/2/">2</a><a href="/jie/page/3/">3</a><a href="/jie/page/4/">4</a><a href="/jie/page/5/">5</a><span>…</span><a href="/jie/page/148/" class="laypage-last" title="尾页">尾页</a><a href="/jie/page/2/" class="laypage-next">下一页</a></div>
                         </div>
 
                     </div>
@@ -642,62 +641,62 @@
                         <dl>
                             <!--<i class="layui-icon fly-loading">&#xe63d;</i>-->
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
-                                <a href="user/home.html">
+                                <a href="<?php echo U('User/index');?>">
                                     <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>

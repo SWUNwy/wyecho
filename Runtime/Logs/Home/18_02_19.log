@@ -1,0 +1,94 @@
+[ 2018-02-19T22:02:45+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-02-19T22:02:45+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:13:35+08:00 ] ::1 /wyecho/index.php/Home/blog/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:13:35+08:00 ] ::1 /wyecho/index.php/Home/blog/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:16:40+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:16:40+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:16:41+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:16:42+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:16:43+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:16:43+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:16:44+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:16:44+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:17:15+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-02-19T22:17:15+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:18:08+08:00 ] ::1 /wyecho/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-02-19T22:18:08+08:00 ] ::1 /wyecho/index.php/Home/Index/__PIBLIC__/Home/layui/layui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:__PIBLIC__
+
+[ 2018-02-19T22:19:30+08:00 ] ::1 /wyecho/index.php/Home/Index/jie/detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:jie
+
