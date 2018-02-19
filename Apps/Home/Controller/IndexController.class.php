@@ -18,6 +18,10 @@ use Think\Controller;
  */
 class IndexController extends Controller {
     public function index(){
+    	
+    	$blog = M('blog');
+    	$list = $blog->select();
+    	$this->assign('list',$lit);
         $this->show();
     }
 }
