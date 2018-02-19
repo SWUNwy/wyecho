@@ -22,7 +22,16 @@ class BlogController extends Controller {
         $this->display();
     }
     
-    public function detail() {
+    /**
+     * 博文详细内容展示
+     * @param  [int] $id [博文Id]
+     * @return [array] $result [博文详细内容]
+     */
+    public function detail($id) {
+    	
+    	$blog = N('blog');
+    	$result = $blog->find($id);
+    	$this->assign('result',$result);
         $this->display();
     }
 }
