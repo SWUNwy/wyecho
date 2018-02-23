@@ -29,7 +29,7 @@ class BlogController extends Controller {
      */
     public function detail($id) {
     	
-    	$blog = N('blog');
+    	$blog = M('blog');
     	$result = $blog->find($id);
     	$this->assign('result',$result);
         $this->display();

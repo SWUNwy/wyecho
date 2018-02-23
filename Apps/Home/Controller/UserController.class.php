@@ -19,6 +19,9 @@ use Think\Controller;
 class UserController extends Controller {
     
     public function index() {
+    	$user = M('user');
+    	$list = $user->select();
+    	$this->assign('list',$list);
         $this->display();
     }
     
