@@ -51,7 +51,7 @@
                         <cite class="layui-hide-xs">贤心</cite>
                         <i class="iconfont icon-renzheng layui-hide-xs" title="认证信息：layui 作者"></i>
                         <i class="layui-badge fly-badge-vip layui-hide-xs">VIP3</i>
-                        <img src="__PUBLIC__/Common/pic/user/uimg.png">
+                        <img src="/wyecho/Public/Common/pic/user/uimg.png">
                       </a>
                       <dl class="layui-nav-child">
                         <dd><a href="../user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
@@ -69,7 +69,7 @@
         <div class="fly-panel fly-column">
             <div class="layui-container">
                 <ul class="layui-clear">
-                    <li class="layui-hide-xs"><a href="/">首页</a></li> 
+                    <li class="layui-hide-xs"><a href="">首页</a></li> 
                     <li class="layui-this"><a href="">提问</a></li> 
                     <li><a href="">分享<span class="layui-badge-dot"></span></a></li> 
                     <li><a href="">讨论</a></li> 
@@ -116,7 +116,7 @@
                         <ul class="fly-list">          
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">分享</a>
@@ -145,7 +145,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -171,7 +171,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -199,7 +199,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -227,7 +227,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -255,7 +255,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -283,7 +283,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -311,7 +311,7 @@
                             </li>
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="__PUBLIC__/Common/pic/user/uimg.png" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -436,7 +436,7 @@
                             layui.cache.user = {
                                 username: '游客'
                                 , uid: -1
-                                , avatar: '../../res/images/avatar/00.jpg'
+                                , avatar: '/wyecho/Public/Home/images/avatar/00.jpg'
                                 , experience: 83
                                 , sex: '男'
                             };

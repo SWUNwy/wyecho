@@ -20,6 +20,9 @@ use Home\Model\BlogModel;
 class BlogController extends Controller {
     
     public function index() {
+        $data = new BlogModel();
+        $data = $data->blogList();
+        $this->assign('data',$data);
         $this->display();
     }
     

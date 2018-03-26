@@ -17,13 +17,19 @@ use Think\Model;
  */
 class BlogModel extends Model {
 
-	public function index() {
-		return ture;
+	public function blogList() {
+		$data = M('blog')
+				->select();
+		if ($data) {
+			return $data;
+		} else {
+			return false;
+		}
 	}
 
 	public function getDetail($id) {
 		$data = M('blog')
-				->where('id=.'$id)
+				->where('id='.$id)
 				->find();
 		var_dump($data);
 		die();

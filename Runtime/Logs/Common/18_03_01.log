@@ -46,7 +46,7 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 ERR: 无法加载模块:__PIBLIC__
 
-[ 2018-03-01T23:16:22+08:00 ] ::1 /wyecho/index.php/Blog/blogDetail/1.html
+[ 2018-03-01T23:16:22+08:00 ] ::1 /wyecho/index.php/Index/blogDetail/1.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001001s ]

@@ -198,7 +198,7 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-12-06T22:13:29+08:00 ] ::1 /wyecho/index.php/Admin/Blog/blogDetail.html
+[ 2017-12-06T22:13:29+08:00 ] ::1 /wyecho/index.php/Admin/Index/blogDetail.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
@@ -229,7 +229,7 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
-[ 2017-12-06T22:15:48+08:00 ] ::1 /wyecho/index.php/Admin/Blog/blogDetail/id/1.html
+[ 2017-12-06T22:15:48+08:00 ] ::1 /wyecho/index.php/Admin/Index/blogDetail/id/1.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
