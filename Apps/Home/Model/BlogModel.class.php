@@ -20,4 +20,13 @@ class BlogModel extends Model {
 	public function index() {
 		return ture;
 	}
+
+	public function getDetail($id) {
+		$data = M('blog')
+				->where('id=.'$id)
+				->find();
+		var_dump($data);
+		die();
+	}
+
 }

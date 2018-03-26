@@ -11,6 +11,7 @@
 namespace Home\Controller;
 
 use Think\Controller;
+use Home\Model\BlogModel;
 /**
  * Description of BlogController
  *
@@ -25,13 +26,13 @@ class BlogController extends Controller {
     /**
      * 博文详细内容展示
      * @param  [int] $id [博文Id]
-     * @return [array] $result [博文详细内容]
      */
-    public function detail($id) {
+    public function blogDetail() {
     	
-    	$blog = M('blog');
-    	$result = $blog->find($id);
-    	$this->assign('result',$result);
+        $id = I('id');
+    	$blog = new BlogModel();
+    	$data = $blog->getDetail($id);
+    	$this->assign('data',$data);
         $this->display();
     }
 }

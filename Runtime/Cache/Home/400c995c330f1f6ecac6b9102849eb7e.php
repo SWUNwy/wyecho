@@ -108,7 +108,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="<?php echo U('User/index');?>" link>
@@ -137,7 +137,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -168,7 +168,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -199,7 +199,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -251,7 +251,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">分享</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -279,7 +279,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -305,7 +305,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -333,7 +333,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -361,7 +361,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -389,7 +389,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -417,7 +417,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -445,7 +445,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -473,7 +473,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -501,7 +501,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -529,7 +529,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
@@ -557,7 +557,7 @@
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
-                                    <a href="<?php echo U('Blog/detail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
+                                    <a href="<?php echo U('Blog/blogDetail',array('id'=>1));?>">基于 layui 的极简社区页面模版</a>
                                 </h2>
                                 <div class="fly-list-info">
                                     <a href="user/home.html" link>
