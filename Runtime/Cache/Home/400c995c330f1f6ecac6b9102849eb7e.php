@@ -51,7 +51,7 @@
                         <cite class="layui-hide-xs">贤心</cite>
                         <i class="iconfont icon-renzheng layui-hide-xs" title="认证信息：layui 作者"></i>
                         <i class="layui-badge fly-badge-vip layui-hide-xs">VIP3</i>
-                        <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg">
+                        <img src="/wyecho/Public/Common/pic/user/uimg.png">
                       </a>
                       <dl class="layui-nav-child">
                         <dd><a href="user/set.html"><i class="layui-icon">&#xe620;</i>基本设置</a></dd>
@@ -69,13 +69,13 @@
         <div class="fly-panel fly-column">
             <div class="layui-container">
                 <ul class="layui-clear">
-                    <li class="layui-hide-xs layui-this"><a href="/">首页</a></li> 
-                    <li><a href="jie/index.html">提问</a></li> 
-                    <li><a href="jie/index.html">分享<span class="layui-badge-dot"></span></a></li> 
-                    <li><a href="jie/index.html">讨论</a></li> 
-                    <li><a href="jie/index.html">建议</a></li> 
-                    <li><a href="jie/index.html">公告</a></li> 
-                    <li><a href="jie/index.html">动态</a></li> 
+                    <li class="layui-hide-xs layui-this"><a href="<?php echo U('Index/index');?>">首页</a></li> 
+                    <li><a href="">提问</a></li> 
+                    <li><a href="">分享<span class="layui-badge-dot"></span></a></li> 
+                    <li><a href="">讨论</a></li> 
+                    <li><a href="">建议</a></li> 
+                    <li><a href="">公告</a></li> 
+                    <li><a href="">动态</a></li> 
                     <li class="layui-hide-xs layui-hide-sm layui-show-md-inline-block"><span class="fly-mid"></span></li> 
 
                     <!-- 用户登入后显示 -->
@@ -104,7 +104,7 @@
                         <ul class="fly-list">
                             <li>
                                 <a href="user/home.html" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -133,7 +133,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
@@ -164,7 +164,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
@@ -195,7 +195,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">公告</a>
@@ -247,7 +247,7 @@
                         <ul class="fly-list">          
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">分享</a>
@@ -275,7 +275,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -301,7 +301,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -329,7 +329,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -357,7 +357,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -385,7 +385,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -413,7 +413,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -441,7 +441,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -469,7 +469,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -497,7 +497,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -525,7 +525,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -553,7 +553,7 @@
                             </li>
                             <li>
                                 <a href="<?php echo U('User/index');?>" class="fly-avatar">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg" alt="贤心">
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png" alt="贤心">
                                 </a>
                                 <h2>
                                     <a class="layui-badge">动态</a>
@@ -642,62 +642,62 @@
                             <!--<i class="layui-icon fly-loading">&#xe63d;</i>-->
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                             <dd>
                                 <a href="<?php echo U('User/index');?>">
-                                    <img src="https://tva1.sinaimg.cn/crop.0.0.118.118.180/5db11ff4gw1e77d3nqrv8j203b03cweg.jpg"><cite>贤心</cite><i>106次回答</i>
+                                    <img src="/wyecho/Public/Common/pic/user/uimg.png"><cite>贤心</cite><i>106次回答</i>
                                 </a>
                             </dd>
                         </dl>
